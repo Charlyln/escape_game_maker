@@ -24,5 +24,4 @@ http request for scores addon js
 plusieurs player
 
 anim gun shot
-intégrer GIT
 afinier sound boss
