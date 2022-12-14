@@ -1,0 +1,4 @@
+anim de reload gun
+screen shaking
+
+nope - touche pour reload

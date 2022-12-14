@@ -1,0 +1,28 @@
+ < >
+
+to re add: 
+- sound start
+
+
+
+add perks: 
+
+- surcharge range up
+- nbr of bullet in magazine to display like returnal
+- reload time
+- rename speed bullet to cooldown
+- and so maybe add speed bullet 
+- multiple dash
+
+
+different damage for guns
+stats display on setup section for guns
+draw sprite magazine to know how much bullets left like returnal
+anim morts enemies (au moins boss)
+ramasser coffre après boss (nouvelle arme)
+http request for scores addon js 
+plusieurs player
+
+anim gun shot
+intégrer GIT
+afinier sound boss

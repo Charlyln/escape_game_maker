@@ -1,0 +1,5 @@
+weapon_name = "ar"
+
+
+
+

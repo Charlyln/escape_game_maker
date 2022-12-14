@@ -1,0 +1,7 @@
+weapon_name = "gun"
+
+
+
+
+
+
