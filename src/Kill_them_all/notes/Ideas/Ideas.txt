@@ -2,7 +2,8 @@
 
 to re add: 
 - sound start
-
+- enemy spawner
+- enemy speed
 
 
 add perks: 
@@ -15,6 +16,8 @@ add perks:
 - multiple dash
 
 
+
+soard attack
 different damage for guns
 stats display on setup section for guns
 draw sprite magazine to know how much bullets left like returnal

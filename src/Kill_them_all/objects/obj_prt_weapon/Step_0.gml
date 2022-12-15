@@ -72,8 +72,7 @@ if (reloading && alarm[0] == reload_sprite_time) {
 
 
 if (special && cooldown_sec < 1) {
-	
-	alarm[2] = 20
+
 	sprite_index = spr_enemy_12931
 	
 	for (var i = 0; i < 1; i += 1) {
@@ -82,10 +81,16 @@ if (special && cooldown_sec < 1) {
 
 	
 	audio_play_sound(snd_fire, 1, false, 1)
-	cooldown_sec = 360
+	cooldown_sec = special_reload_time
 }
 cooldown -= 1
 cooldown_sec -= 1
 
 
 }
+//else if (!global.loading) {
+//res = http_get("https://pokeapi.co/api/v2/berry-firmness");
+//global.loading = true
+//}
+
+
