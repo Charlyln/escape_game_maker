@@ -7,7 +7,7 @@
 
 // Draw event 
 
-draw_self()
+//draw_self()
 
 //video_data = video_draw()
 //video_status = video_data[0]

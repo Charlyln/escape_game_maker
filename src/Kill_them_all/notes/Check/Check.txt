@@ -1,3 +1,12 @@
+ < >
+
+to re add: 
+- sound start
+- enemy spawner
+- enemy speed
+
+
+
 anim de reload gun
 screen shaking
 intégrer GIT

@@ -1,9 +1,3 @@
- < >
-
-to re add: 
-- sound start
-- enemy spawner
-- enemy speed
 
 
 add perks: 
@@ -16,7 +10,7 @@ add perks:
 - multiple dash
 
 
-
+mettre en pause le timer
 soard attack
 different damage for guns
 stats display on setup section for guns

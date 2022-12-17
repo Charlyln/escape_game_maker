@@ -240,7 +240,7 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Polices",
-    "path": "folders/Polices.yy",
+    "name": "Fonts",
+    "path": "folders/Fonts.yy",
   },
 }

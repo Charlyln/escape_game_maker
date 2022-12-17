@@ -29,6 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "navigation",
-    "path": "folders/Objets/ui/buttons/navigation.yy",
+    "path": "folders/Objets/ui/navigation.yy",
   },
 }
