@@ -17,7 +17,7 @@
   "soundFile": "snd_powerup.wav",
   "duration": 2.0,
   "parent": {
-    "name": "Sons",
-    "path": "folders/Sons.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
 }

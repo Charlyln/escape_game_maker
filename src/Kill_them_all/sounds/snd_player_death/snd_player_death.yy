@@ -17,7 +17,7 @@
   "soundFile": "snd_player_death.mp3",
   "duration": 4.075102,
   "parent": {
-    "name": "Sons",
-    "path": "folders/Sons.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
 }

@@ -17,7 +17,7 @@
   "soundFile": "snd_fire.wav",
   "duration": 1.22,
   "parent": {
-    "name": "Sons",
-    "path": "folders/Sons.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
 }

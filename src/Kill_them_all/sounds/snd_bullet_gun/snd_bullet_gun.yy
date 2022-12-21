@@ -17,7 +17,7 @@
   "soundFile": "snd_bullet_gun.wav",
   "duration": 1.343741,
   "parent": {
-    "name": "Sons",
-    "path": "folders/Sons.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
 }

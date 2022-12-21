@@ -17,7 +17,7 @@
   "soundFile": "snd_boss_start.mp3",
   "duration": 63.007347,
   "parent": {
-    "name": "Sons",
-    "path": "folders/Sons.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
 }

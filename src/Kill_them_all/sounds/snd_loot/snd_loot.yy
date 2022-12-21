@@ -17,7 +17,7 @@
   "soundFile": "snd_loot.wav",
   "duration": 1.333333,
   "parent": {
-    "name": "Sons",
-    "path": "folders/Sons.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
 }

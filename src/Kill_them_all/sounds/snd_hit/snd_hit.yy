@@ -17,7 +17,7 @@
   "soundFile": "snd_hit.wav",
   "duration": 0.666667,
   "parent": {
-    "name": "Sons",
-    "path": "folders/Sons.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
 }
