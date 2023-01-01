@@ -1,13 +1,13 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "TileSet7",
+  "name": "TileSet79",
   "spriteId": {
-    "name": "spr_weed_background2223",
-    "path": "sprites/spr_weed_background2223/spr_weed_background2223.yy",
+    "name": "tileSet82",
+    "path": "sprites/tileSet82/tileSet82.yy",
   },
-  "tileWidth": 50,
-  "tileHeight": 50,
+  "tileWidth": 32,
+  "tileHeight": 32,
   "tilexoff": 0,
   "tileyoff": 0,
   "tilehsep": 0,
