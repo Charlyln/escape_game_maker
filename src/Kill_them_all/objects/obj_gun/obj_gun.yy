@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_gun",
-  "spriteId": {
-    "name": "spr_double_gun",
-    "path": "sprites/spr_double_gun/spr_double_gun.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

@@ -31,23 +31,23 @@ global.player_speed = ""
 
 //audio_play_sound(snd_hello_robot, 1, false)
 
-//switch (global.setup_weapon)
-//{
-//    case "gun":
-//		instance_create_layer(x,y, "BulletsLayer", obj_gun)
-//    break;
+switch (global.setup_weapon)
+{
+    case "gun":
+		instance_create_layer(x,y, "BulletsLayer", obj_gun)
+    break;
 
-//    case "shotgun":
-//		instance_create_layer(x,y, "BulletsLayer", obj_shotgun)
-//    break;
+    case "shotgun":
+		instance_create_layer(x,y, "BulletsLayer", obj_shotgun)
+    break;
 	
-//	  case "ar":
-//		instance_create_layer(x,y, "BulletsLayer", obj_ar)
-//    break;
+	  case "ar":
+		instance_create_layer(x,y, "BulletsLayer", obj_ar)
+    break;
 
-//    default:
-//        instance_create_layer(x,y, "BulletsLayer", obj_gun)
-//}
+    default:
+        instance_create_layer(x,y, "BulletsLayer", obj_gun)
+}
 
 
 

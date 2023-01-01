@@ -1,6 +1,29 @@
- global.scale = 4;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//global.scale = 2;
  
- window_set_size(480 * global.scale, 270 * global.scale);
+ //window_set_size(480 * global.scale, 270 * global.scale);
  
  //var my_cam = camera_create_view(0, 0, 480 * global.scale, 270 * global.scale)
  
