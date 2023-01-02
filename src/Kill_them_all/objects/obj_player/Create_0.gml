@@ -1,4 +1,4 @@
-moove_speed = 2
+moove_speed = 3
 
 fire_rate = 0.4
 damage = 1

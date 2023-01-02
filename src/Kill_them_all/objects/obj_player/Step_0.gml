@@ -6,6 +6,7 @@ if (!pause && !dying) {
 	move_down = press("S");
 	move_right = press("D");
 
+
 	if (!dashing) {
 		if (move_up && !move_left && !move_right) y -= moove_speed;
 		if (move_down && !move_left && !move_right) y += moove_speed;

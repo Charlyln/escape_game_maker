@@ -22,30 +22,30 @@ if (!obj_player.pause) {
 	shoot = mouse_check_button(mb_left);
 	special = mouse_check_button(mb_right);
 
+	if (shoot && bullet_in_magazine > 0) {
+		obj_player.moove_speed = 1;
+	} else {
+		obj_player.moove_speed = 3;
+	}
+
 	if (shoot && cooldown < 1 && bullet_in_magazine > 0) {
 		for (var i = 0; i < projectile; i += 1) {
 			instance_create_layer(x, y, "BulletsLayer", obj_bullet);
 		}
-		
-		shooting = true
+
+		shooting = true;
 
 		audio_play_sound(snd_bullet, 2, false, 0.4);
 		cooldown = weapon_cooldown - obj_player.fire_rate;
 		bullet_in_magazine -= 1;
 	} else {
-	shooting = false
+		shooting = false;
 	}
 
 	if (trigger_raise_during_reload && !surcharge_range && shoot && !success_surcharge) {
 		trigger_raise_during_reload = false;
 		miss_surcharge = true;
-	} else if (
-		trigger_raise_during_reload &&
-		surcharge_range &&
-		shoot &&
-		!miss_surcharge &&
-		!success_surcharge
-	) {
+	} else if (trigger_raise_during_reload && surcharge_range && shoot && !miss_surcharge && !success_surcharge) {
 		alarm[0] = reload_sprite_time;
 		audio_play_sound(reload_sound, 1, false, 1);
 		audio_play_sound(snd_surcharge, 1, false);

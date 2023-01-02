@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_item",
   "spriteId": {
-    "name": "spr_cursor",
-    "path": "sprites/spr_cursor/spr_cursor.yy",
+    "name": "spr_item",
+    "path": "sprites/spr_item/spr_item.yy",
   },
   "solid": false,
   "visible": true,
