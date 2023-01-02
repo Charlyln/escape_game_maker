@@ -25,11 +25,13 @@ global.bullet_speed = ""
 global.player_speed = ""
 
 
-//if (global.setup_weapon) {
+//if (global.setup_weapon == "no_weapon" ) {
 //global.setup_weapon = "gun"
 //}
 
 //audio_play_sound(snd_hello_robot, 1, false)
+
+global.setup_weapon = "gun"
 
 switch (global.setup_weapon)
 {

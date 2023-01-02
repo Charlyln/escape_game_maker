@@ -1,4 +1,7 @@
-if (distance_to_point(obj_player.x, obj_player.y) < 150)
+if (distance_to_point(obj_player.x, obj_player.y) < 50)
 {
-move_towards_point(obj_player.x, obj_player.y, 10)
+	show_debug_message(image_xscale)
+
+		show_debug_message(image_yscale)
+//move_towards_point(obj_player.x, obj_player.y, 10)
 }
