@@ -110,12 +110,12 @@ if (!pause && !dying) {
 				);
 			}
 		} else {
-			sprite_index = spr_player;
+			sprite_index = spr_player_idle;
 			image_alpha = 1;
 			obj_prt_weapon.image_alpha = 1;
 		}
 	} else {
-		sprite_index = spr_player;
+		sprite_index =  spr_enemy_129;
 	}
 
 	// Dash

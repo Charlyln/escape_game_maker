@@ -35,7 +35,7 @@
     {"id":{"name":"spr_player_dash_right_down","path":"sprites/spr_player_dash_right_down/spr_player_dash_right_down.yy",},"order":23,},
     {"id":{"name":"spr_tutoriel_button_dash","path":"sprites/spr_tutoriel_button_dash/spr_tutoriel_button_dash.yy",},"order":6,},
     {"id":{"name":"spr_pause_controls","path":"sprites/spr_pause_controls/spr_pause_controls.yy",},"order":9,},
-    {"id":{"name":"spr_enemy_1","path":"sprites/spr_enemy_1/spr_enemy_1.yy",},"order":10,},
+    {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},"order":10,},
     {"id":{"name":"obj_camera_menu","path":"objects/obj_camera_menu/obj_camera_menu.yy",},"order":5,},
     {"id":{"name":"obj_start_to_play74","path":"objects/obj_start_to_play74/obj_start_to_play74.yy",},"order":9,},
     {"id":{"name":"obj_power_bullet_speed","path":"objects/obj_power_bullet_speed/obj_power_bullet_speed.yy",},"order":0,},
@@ -215,9 +215,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_setup","path":"rooms/rm_setup/rm_setup.yy",},},
-    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy","order":19,},

@@ -1,10 +1,13 @@
-moove_speed = 1
+moove_speed = 2
 
 fire_rate = 0.4
 damage = 1
 xp = 0
 level = 0
 pause = false
+
+image_xscale = 2
+image_yscale = image_xscale
 
 invulnerability = false
 dead = false
@@ -24,14 +27,7 @@ global.projectile = ""
 global.bullet_speed = ""
 global.player_speed = ""
 
-
-//if (global.setup_weapon == "no_weapon" ) {
-//global.setup_weapon = "gun"
-//}
-
-//audio_play_sound(snd_hello_robot, 1, false)
-
-global.setup_weapon = "gun"
+global.setup_weapon = "ar"
 
 switch (global.setup_weapon)
 {
