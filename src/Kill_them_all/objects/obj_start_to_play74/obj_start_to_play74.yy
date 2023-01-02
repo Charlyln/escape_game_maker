@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_start_to_play74",
-  "spriteId": {
-    "name": "spr_start_to_play",
-    "path": "sprites/spr_start_to_play/spr_start_to_play.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

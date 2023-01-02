@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_title_setup",
-  "spriteId": {
-    "name": "spr_title_setup",
-    "path": "sprites/spr_title_setup/spr_title_setup.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

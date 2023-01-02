@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_selected_item",
   "spriteId": {
-    "name": "spr_selected_circle",
-    "path": "sprites/spr_selected_circle/spr_selected_circle.yy",
+    "name": "spr_setup_round",
+    "path": "sprites/spr_setup_round/spr_setup_round.yy",
   },
   "solid": false,
   "visible": true,
