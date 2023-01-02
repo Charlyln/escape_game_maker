@@ -8,35 +8,35 @@ if (!pause && !dying) {
 
 
 	if (!dashing) {
-		if (move_up && !move_left && !move_right) y -= moove_speed;
-		if (move_down && !move_left && !move_right) y += moove_speed;
-		if (move_left && !move_up && !move_down) x -= moove_speed;
-		if (move_right && !move_up && !move_down) x += moove_speed;
+		if (move_up && !move_left && !move_right) y -= moove_speed - moove_speed_malus;
+		if (move_down && !move_left && !move_right) y += moove_speed - moove_speed_malus;
+		if (move_left && !move_up && !move_down) x -= moove_speed - moove_speed_malus;
+		if (move_right && !move_up && !move_down) x += moove_speed - moove_speed_malus;
 
-		if (move_right && (move_up || move_down)) x += moove_speed / 1.5;
-		if (move_left && (move_up || move_down)) x -= moove_speed / 1.5;
-		if (move_up && (move_left || move_right)) y -= moove_speed / 1.5;
-		if (move_down && (move_left || move_right)) y += moove_speed / 1.5;
+		if (move_right && (move_up || move_down)) x += (moove_speed - moove_speed_malus) / 1.5;
+		if (move_left && (move_up || move_down)) x -= (moove_speed - moove_speed_malus) / 1.5;
+		if (move_up && (move_left || move_right)) y -= (moove_speed - moove_speed_malus) / 1.5;
+		if (move_down && (move_left || move_right)) y += (moove_speed - moove_speed_malus) / 1.5;
 	} else {
-		if (dash_direction == "up") y -= moove_speed;
-		if (dash_direction == "down") y += moove_speed;
-		if (dash_direction == "right") x += moove_speed;
-		if (dash_direction == "left") x -= moove_speed;
+		if (dash_direction == "up") y -= moove_speed - moove_speed_malus;
+		if (dash_direction == "down") y += moove_speed - moove_speed_malus;
+		if (dash_direction == "right") x += moove_speed - moove_speed_malus;
+		if (dash_direction == "left") x -= moove_speed - moove_speed_malus;
 		if (dash_direction == "left-down") {
-			x -= moove_speed / 1.5;
-			y += moove_speed / 1.5;
+			x -= moove_speed - moove_speed_malus / 1.5;
+			y += moove_speed - moove_speed_malus / 1.5;
 		}
 		if (dash_direction == "left-up") {
-			x -= moove_speed / 1.5;
-			y -= moove_speed / 1.5;
+			x -= moove_speed - moove_speed_malus / 1.5;
+			y -= moove_speed - moove_speed_malus / 1.5;
 		}
 		if (dash_direction == "right-down") {
-			x += moove_speed / 1.5;
-			y += moove_speed / 1.5;
+			x += moove_speed - moove_speed_malus / 1.5;
+			y += moove_speed - moove_speed_malus / 1.5;
 		}
 		if (dash_direction == "right-up") {
-			y -= moove_speed / 1.5;
-			x += moove_speed / 1.5;
+			y -= moove_speed - moove_speed_malus / 1.5;
+			x += moove_speed - moove_speed_malus / 1.5;
 		}
 	}
 

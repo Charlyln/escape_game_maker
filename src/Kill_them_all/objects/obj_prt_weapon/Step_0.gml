@@ -23,9 +23,9 @@ if (!obj_player.pause) {
 	special = mouse_check_button(mb_right);
 
 	if (shoot && bullet_in_magazine > 0) {
-		obj_player.moove_speed = 1;
+		obj_player.moove_speed_malus = 1;
 	} else {
-		obj_player.moove_speed = 3;
+		obj_player.moove_speed_malus = 0;
 	}
 
 	if (shoot && cooldown < 1 && bullet_in_magazine > 0) {
