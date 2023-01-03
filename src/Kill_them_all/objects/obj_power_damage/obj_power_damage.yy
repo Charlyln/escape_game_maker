@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_power_damage",
   "spriteId": {
-    "name": "spr_power_damage",
-    "path": "sprites/spr_power_damage/spr_power_damage.yy",
+    "name": "spr_window_option",
+    "path": "sprites/spr_window_option/spr_window_option.yy",
   },
   "solid": false,
   "visible": true,

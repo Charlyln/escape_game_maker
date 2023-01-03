@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_power_bullet_speed",
   "spriteId": {
-    "name": "spr_bullet_speed",
-    "path": "sprites/spr_bullet_speed/spr_bullet_speed.yy",
+    "name": "spr_window_option",
+    "path": "sprites/spr_window_option/spr_window_option.yy",
   },
   "solid": false,
   "visible": true,

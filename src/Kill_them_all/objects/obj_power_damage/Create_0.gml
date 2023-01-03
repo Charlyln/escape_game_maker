@@ -3,4 +3,4 @@ apply_capacity = function() {
 	global.damage = global.damage + "+"
 }
 
-
+name = "Damage ++"

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_bullet_sec",
   "spriteId": {
-    "name": "spr_circle_bullet",
-    "path": "sprites/spr_circle_bullet/spr_circle_bullet.yy",
+    "name": "spr_bullet_fire",
+    "path": "sprites/spr_bullet_fire/spr_bullet_fire.yy",
   },
   "solid": false,
   "visible": true,

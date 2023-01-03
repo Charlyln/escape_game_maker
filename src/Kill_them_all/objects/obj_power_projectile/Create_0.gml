@@ -3,4 +3,4 @@ apply_capacity = function() {
 		global.projectile = global.projectile + "+"
 }
 
-
+name = "Projectile ++"

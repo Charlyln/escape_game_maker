@@ -50,6 +50,7 @@
     {"id":{"name":"spr_power_damage","path":"sprites/spr_power_damage/spr_power_damage.yy",},"order":5,},
     {"id":{"name":"Script2","path":"scripts/Script2/Script2.yy",},"order":1,},
     {"id":{"name":"obj_recap","path":"objects/obj_recap/obj_recap.yy",},"order":3,},
+    {"id":{"name":"spr_bullet_fire","path":"sprites/spr_bullet_fire/spr_bullet_fire.yy",},"order":8,},
     {"id":{"name":"obj_ar","path":"objects/obj_ar/obj_ar.yy",},"order":3,},
     {"id":{"name":"obj_enemy_pr","path":"objects/obj_enemy_pr/obj_enemy_pr.yy",},"order":4,},
     {"id":{"name":"spr_player_dash_reload","path":"sprites/spr_player_dash_reload/spr_player_dash_reload.yy",},"order":26,},

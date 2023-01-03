@@ -4,3 +4,4 @@ apply_capacity = function() {
 }
 
 
+name = "Move speed ++"

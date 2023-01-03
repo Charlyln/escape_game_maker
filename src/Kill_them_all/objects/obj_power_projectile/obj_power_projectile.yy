@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_power_projectile",
   "spriteId": {
-    "name": "spr_power_projectile",
-    "path": "sprites/spr_power_projectile/spr_power_projectile.yy",
+    "name": "spr_window_option",
+    "path": "sprites/spr_window_option/spr_window_option.yy",
   },
   "solid": false,
   "visible": true,
