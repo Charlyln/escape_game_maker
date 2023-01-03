@@ -8,4 +8,4 @@ timestr = string("{0}:{1}", time_str, secs)
 global.timer = timestr
 
 draw_set_font(ft_1);
-draw_text_colour(xpDisplayX + window_get_width() - 80, xpDisplayY + 80, timestr, c_white, c_white, c_white, c_white, 1);
+draw_text_colour(xpDisplayX + camera_get_view_width(view_camera[0]) - 80, xpDisplayY + 80, timestr, c_white, c_white, c_white, c_white, 1);
