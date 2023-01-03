@@ -20,6 +20,7 @@ dash_speed = 10
 dash_duration = 15
 dash_cooldown = 130
 can_dash = true
+instances_created = false
 
 global.killed_enemies = 0
 global.killed_boss = 0

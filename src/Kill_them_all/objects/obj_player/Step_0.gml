@@ -152,11 +152,13 @@ if (!pause && !dying) {
 	}
 }
 
-if (dead) {
+if (dead && !instances_created) {
 	sprite_index = spr_player_dead;
 	instance_create_layer(xpDisplayX + 50, xpDisplayY + 20, "lyr_commands", obj_text_game_you_died);
 	instance_create_layer(xpDisplayX + 50, xpDisplayY + 20, "lyr_commands", obj_recap_infos);
 	instance_create_layer(xpDisplayX + 960, xpDisplayY + 700, "lyr_commands", obj_text_button_restart);
 	audio_stop_sound(snd_start);
 	audio_stop_sound(snd_boss_start);
-}
+	
+	instances_created = true
+} 

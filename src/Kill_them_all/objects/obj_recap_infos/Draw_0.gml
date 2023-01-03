@@ -12,13 +12,15 @@ str_bullet_speed = string("Bullet speed: {0}", global.bullet_speed)
 str_player_speed = string("Player speed: {0}", global.player_speed)
 
 
-draw_text(xpDisplayX + 480, xpDisplayY + 200, str_level);
-draw_text(xpDisplayX + 480, xpDisplayY + 240, str_timer);
-draw_text(xpDisplayX + 480, xpDisplayY + 280, str_enemies_killed);
-draw_text(xpDisplayX + 480, xpDisplayY + 320, str_bosses_killed);
+
+draw_set_halign(fa_left);
+draw_text_transformed(xpDisplayX + 480, xpDisplayY + 200, str_level,scale, scale, 0);
+draw_text_transformed(xpDisplayX + 480, xpDisplayY + 240, str_timer,scale, scale, 0);
+draw_text_transformed(xpDisplayX + 480, xpDisplayY + 280, str_enemies_killed,scale, scale, 0);
+draw_text_transformed(xpDisplayX + 480, xpDisplayY + 320, str_bosses_killed,scale, scale, 0);
 
 
-draw_text(xpDisplayX + 480, xpDisplayY + 380, str_player_speed);
-draw_text(xpDisplayX + 480, xpDisplayY + 420, str_projectile);
-draw_text(xpDisplayX + 480, xpDisplayY + 460, str_bullet_speed);
-draw_text(xpDisplayX + 480, xpDisplayY + 500, str_damage);
+draw_text_transformed(xpDisplayX + 480, xpDisplayY + 380, str_player_speed,scale, scale, 0);
+draw_text_transformed(xpDisplayX + 480, xpDisplayY + 420, str_projectile,scale, scale, 0);
+draw_text_transformed(xpDisplayX + 480, xpDisplayY + 460, str_bullet_speed,scale, scale, 0);
+draw_text_transformed(xpDisplayX + 480, xpDisplayY + 500, str_damage,scale, scale, 0);

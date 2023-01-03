@@ -9,4 +9,5 @@ if (is_hover) {
 draw_set_valign(fa_middle);
 draw_set_halign(fa_center);
 draw_set_font(Font3);
-draw_text(x, y, text_button);
+
+draw_text_transformed(x, y, text_button, scale, scale, 0);

@@ -1,7 +1,8 @@
 event_inherited();
 
-text_button = "RESTART";
+text_button = "Restart";
+scale = 4
 
 do_action_button = function () {
-	room_goto_previous();
+	room_goto(2);
 };
