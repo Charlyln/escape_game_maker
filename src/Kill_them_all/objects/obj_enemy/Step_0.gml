@@ -11,6 +11,6 @@ if (hp <= 0) {
 	instance_destroy()
 }
 
-if (obj_player.level >= 1 ) {
+if (obj_player.level >= 10 ) {
 instance_destroy()
 }

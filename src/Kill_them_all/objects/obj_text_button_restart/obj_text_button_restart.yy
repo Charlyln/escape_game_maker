@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy_11",
+  "name": "obj_text_button_restart",
   "spriteId": {
-    "name": "spr_enemy_1030",
-    "path": "sprites/spr_enemy_1030/spr_enemy_1030.yy",
+    "name": "spr_ui_button77",
+    "path": "sprites/spr_ui_button77/spr_ui_button77.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "prt_enemy",
-    "path": "objects/prt_enemy/prt_enemy.yy",
+    "name": "prt_ui_button",
+    "path": "objects/prt_ui_button/prt_ui_button.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,12 +29,11 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "standard",
-    "path": "folders/Objets/characters/enemies/standard.yy",
+    "name": "button",
+    "path": "folders/Objets/ui/button.yy",
   },
 }

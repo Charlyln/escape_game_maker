@@ -12,10 +12,10 @@ if (obj_prt_weapon.shooting) {
 }
 
 if (shake) {
-	shake_range = 5;
+	shake_range = 6;
 	camera_set_view_pos(view_camera[0], xpDisplayX + random_range(-shake_range, shake_range), xpDisplayY + random_range(-shake_range, shake_range));
 } else if (bullet_shake) {
-	bullet_shake_range = 2;
+	bullet_shake_range = 3;
 	camera_set_view_pos(view_camera[0], xpDisplayX + random_range(-bullet_shake_range, bullet_shake_range), xpDisplayY + random_range(-bullet_shake_range, bullet_shake_range));
 } else {
 	camera_set_view_pos(view_camera[0], xpDisplayX, xpDisplayY);

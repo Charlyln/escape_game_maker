@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bullet_sec",
-  "spriteId": {
-    "name": "spr_circle_bullet",
-    "path": "sprites/spr_circle_bullet/spr_circle_bullet.yy",
-  },
+  "name": "prt_enemy",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -24,14 +21,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"prt_enemy","path":"objects/prt_enemy/prt_enemy.yy",},},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "bullets",
-    "path": "folders/Objets/bullets.yy",
+    "name": "enemies",
+    "path": "folders/Objets/characters/enemies.yy",
   },
 }

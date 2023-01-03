@@ -28,7 +28,7 @@ global.projectile = ""
 global.bullet_speed = ""
 global.player_speed = ""
 
-global.setup_weapon = "ar"
+
 
 switch (global.setup_weapon)
 {
