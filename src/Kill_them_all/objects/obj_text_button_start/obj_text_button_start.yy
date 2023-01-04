@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_text_button_start",
   "spriteId": {
-    "name": "spr_ui_button77",
-    "path": "sprites/spr_ui_button77/spr_ui_button77.yy",
+    "name": "Sprite80",
+    "path": "sprites/Sprite80/Sprite80.yy",
   },
   "solid": false,
   "visible": true,

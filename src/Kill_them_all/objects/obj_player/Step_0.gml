@@ -160,5 +160,7 @@ if (dead && !instances_created) {
 	audio_stop_sound(snd_start);
 	audio_stop_sound(snd_boss_start);
 	
+
+	
 	instances_created = true
 } 
