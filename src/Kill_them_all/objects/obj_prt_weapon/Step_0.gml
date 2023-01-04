@@ -35,7 +35,7 @@ if (!obj_player.pause) {
 
 		shooting = true;
 
-		audio_play_sound(snd_bullet, 2, false, 0.4);
+		audio_play_sound(snd_weapon_bullet_2, 2, false, 0.5);
 		cooldown = weapon_cooldown - obj_player.fire_rate;
 		bullet_in_magazine -= 1;
 	} else {
@@ -45,6 +45,8 @@ if (!obj_player.pause) {
 	if (trigger_raise_during_reload && !surcharge_range && shoot && !success_surcharge) {
 		trigger_raise_during_reload = false;
 		miss_surcharge = true;
+		
+		audio_play_sound(snd_no_more_bullet ,1, false)
 	} else if (trigger_raise_during_reload && surcharge_range && shoot && !miss_surcharge && !success_surcharge) {
 		alarm[0] = reload_sprite_time;
 		audio_play_sound(reload_sound, 1, false, 1);

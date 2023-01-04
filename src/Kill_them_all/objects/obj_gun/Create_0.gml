@@ -4,6 +4,7 @@ regular_sprite = spr_double_gun
 flip_sprite = spr_double_gun_flip
 reload_sound = snd_shotgun_reload
 reloaded_sprite = spr_double_gun_reload
+snd_weapon_bullet_2 = snd_bullet_5
 
 reload_sprite_time = 15
 

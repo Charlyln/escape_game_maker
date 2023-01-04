@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_surcharge",
+  "name": "snd_bullet_5",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.05,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,10 +14,10 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_surcharge.mp3",
-  "duration": 1.567347,
+  "soundFile": "snd_bullet_5.wav",
+  "duration": 0.235896,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "bullets",
+    "path": "folders/Sounds/bullets.yy",
   },
 }

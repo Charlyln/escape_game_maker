@@ -4,7 +4,7 @@
   "name": "snd_start",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.03,
+  "volume": 0.02,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
