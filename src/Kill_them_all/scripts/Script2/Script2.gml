@@ -1,3 +1,0 @@
- function focus_window(){
-  
-  }

@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "prt_player",
-    "path": "objects/prt_player/prt_player.yy",
+    "name": "prt_lighting",
+    "path": "objects/prt_lighting/prt_lighting.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -44,6 +44,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "players",
-    "path": "folders/Objets/characters/players.yy",
+    "path": "folders/Objects/characters/players.yy",
   },
 }

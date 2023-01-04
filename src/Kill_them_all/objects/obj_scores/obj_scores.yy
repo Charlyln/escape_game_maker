@@ -32,6 +32,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "contollers",
-    "path": "folders/Objets/contollers.yy",
+    "path": "folders/Objects/contollers.yy",
   },
 }

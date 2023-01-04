@@ -37,6 +37,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "spawn",
-    "path": "folders/Objets/characters/enemies/spawn.yy",
+    "path": "folders/Objects/characters/enemies/spawn.yy",
   },
 }

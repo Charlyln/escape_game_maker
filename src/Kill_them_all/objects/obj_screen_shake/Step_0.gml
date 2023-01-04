@@ -1,3 +1,5 @@
+if (instance_exists(obj_prt_weapon)) {
+
 xpDisplayX = camera_get_view_x(view_camera[0]);
 xpDisplayY = camera_get_view_y(view_camera[0]);
 
@@ -19,4 +21,5 @@ if (shake) {
 	camera_set_view_pos(view_camera[0], xpDisplayX + random_range(-bullet_shake_range, bullet_shake_range), xpDisplayY + random_range(-bullet_shake_range, bullet_shake_range));
 } else {
 	camera_set_view_pos(view_camera[0], xpDisplayX, xpDisplayY);
+}
 }

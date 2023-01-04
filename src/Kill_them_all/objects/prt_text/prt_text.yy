@@ -28,6 +28,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "text",
-    "path": "folders/Objets/ui/text.yy",
+    "path": "folders/Objects/ui/text.yy",
   },
 }

@@ -28,6 +28,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "ath",
-    "path": "folders/Objets/ui/ath.yy",
+    "path": "folders/Objects/ui/ath.yy",
   },
 }

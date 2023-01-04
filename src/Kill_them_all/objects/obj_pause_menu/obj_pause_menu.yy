@@ -32,6 +32,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "pause",
-    "path": "folders/Objets/ui/pause.yy",
+    "path": "folders/Objects/ui/pause.yy",
   },
 }

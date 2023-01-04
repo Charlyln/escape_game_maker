@@ -32,6 +32,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "perks",
-    "path": "folders/Objets/perks.yy",
+    "path": "folders/Objects/perks.yy",
   },
 }

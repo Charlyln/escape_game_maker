@@ -32,6 +32,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "ui",
-    "path": "folders/Objets/ui.yy",
+    "path": "folders/Objects/ui.yy",
   },
 }

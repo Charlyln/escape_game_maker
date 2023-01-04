@@ -32,6 +32,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "gif",
-    "path": "folders/Objets/ui/tutoriel/gif.yy",
+    "path": "folders/Objects/ui/tutoriel/gif.yy",
   },
 }

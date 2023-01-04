@@ -34,6 +34,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "button",
-    "path": "folders/Objets/ui/tutoriel/button.yy",
+    "path": "folders/Objects/ui/tutoriel/button.yy",
   },
 }
