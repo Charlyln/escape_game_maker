@@ -34,7 +34,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "button",
-    "path": "folders/Objects/ui/button.yy",
+    "name": "text_buttons",
+    "path": "folders/Objects/ui/button/text_buttons.yy",
   },
 }

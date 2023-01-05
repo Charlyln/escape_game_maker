@@ -2,7 +2,9 @@ draw_self();
 
 if (is_hover) {
 	draw_set_color(global.color_hover);
+	image_alpha = 0.6
 } else {
+	image_alpha = 1
 	draw_set_color(global.color_primary);
 }
 
