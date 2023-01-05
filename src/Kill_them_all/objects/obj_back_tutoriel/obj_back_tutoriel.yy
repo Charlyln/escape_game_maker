@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_back_tutoriel",
-  "spriteId": {
-    "name": "spr_back",
-    "path": "sprites/spr_back/spr_back.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

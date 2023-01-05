@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_commands_button",
-  "spriteId": {
-    "name": "spr_commands",
-    "path": "sprites/spr_commands/spr_commands.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

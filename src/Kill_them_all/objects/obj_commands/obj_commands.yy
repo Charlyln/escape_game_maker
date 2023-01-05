@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_commands",
-  "spriteId": {
-    "name": "Sprite31",
-    "path": "sprites/Sprite31/Sprite31.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

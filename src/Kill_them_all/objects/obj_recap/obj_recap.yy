@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_recap",
-  "spriteId": {
-    "name": "Sprite3133",
-    "path": "sprites/Sprite3133/Sprite3133.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

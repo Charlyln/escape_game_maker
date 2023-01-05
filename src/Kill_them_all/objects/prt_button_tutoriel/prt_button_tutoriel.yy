@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "prt_button",
-    "path": "objects/prt_button/prt_button.yy",
+    "name": "prt_ui_button",
+    "path": "objects/prt_ui_button/prt_ui_button.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,12 +25,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":13,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "button",
-    "path": "folders/Objects/ui/tutoriel/button.yy",
+    "name": "tutoriel",
+    "path": "folders/Objects/ui/button/tutoriel.yy",
   },
 }

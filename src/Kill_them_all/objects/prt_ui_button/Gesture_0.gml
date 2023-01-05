@@ -1,6 +1,6 @@
 if (!is_tap && can_tap) {
-	do_action_button()
 	is_tap = true
+	do_action_button()
 	audio_play_sound(snd_clip, 1, false)
 }
 

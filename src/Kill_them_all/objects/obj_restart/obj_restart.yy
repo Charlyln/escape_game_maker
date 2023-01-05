@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_restart",
-  "spriteId": {
-    "name": "Sprite313334",
-    "path": "sprites/Sprite313334/Sprite313334.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

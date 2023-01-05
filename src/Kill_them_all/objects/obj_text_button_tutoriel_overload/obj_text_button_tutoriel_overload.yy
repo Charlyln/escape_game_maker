@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_text_button_play",
+  "name": "obj_text_button_tutoriel_overload",
   "spriteId": {
     "name": "Sprite80",
     "path": "sprites/Sprite80/Sprite80.yy",
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "prt_ui_button",
-    "path": "objects/prt_ui_button/prt_ui_button.yy",
+    "name": "prt_button_tutoriel",
+    "path": "objects/prt_button_tutoriel/prt_button_tutoriel.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -33,7 +33,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "start",
-    "path": "folders/Objects/ui/button/start.yy",
+    "name": "tutoriel",
+    "path": "folders/Objects/ui/button/tutoriel.yy",
   },
 }

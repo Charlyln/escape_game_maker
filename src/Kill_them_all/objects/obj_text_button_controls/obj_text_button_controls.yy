@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_text_button_play",
+  "name": "obj_text_button_controls",
   "spriteId": {
     "name": "Sprite80",
     "path": "sprites/Sprite80/Sprite80.yy",
