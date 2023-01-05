@@ -1,3 +1,5 @@
+event_inherited()
+
 total_hp = 2000
 hp = total_hp
 spd = 1

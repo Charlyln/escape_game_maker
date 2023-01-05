@@ -4,7 +4,6 @@ with(other){
 	else if (obj_player.level < 7) xp = xp + 3
 	else if (obj_player.level < 10) xp = xp + 2
 	else if (obj_player.level >= 10) xp = xp + 1
-	
 	audio_play_sound(snd_loot, false, 0.4)
 }
 
