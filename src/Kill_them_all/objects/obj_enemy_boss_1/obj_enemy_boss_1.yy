@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "prt_boss",
-    "path": "objects/prt_boss/prt_boss.yy",
+    "name": "prt_enemy_boss",
+    "path": "objects/prt_enemy_boss/prt_enemy_boss.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "standard",
-    "path": "folders/Objects/characters/enemies/standard.yy",
+    "name": "boss",
+    "path": "folders/Objects/characters/enemies/boss.yy",
   },
 }

@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "prt_enemy",
-    "path": "objects/prt_enemy/prt_enemy.yy",
+    "name": "prt_enemy_std",
+    "path": "objects/prt_enemy_std/prt_enemy_std.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,7 +29,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

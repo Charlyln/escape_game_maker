@@ -1,2 +1,3 @@
-image_xscale = 0.1
-image_xscale = 0.1
+event_inherited()
+
+enemy_obj = obj_enemy_10

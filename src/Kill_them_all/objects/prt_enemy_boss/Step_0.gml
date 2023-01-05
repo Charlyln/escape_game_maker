@@ -1,18 +1,9 @@
+event_inherited()
+
 player_x = obj_player.x
 player_y = obj_player.y
 
-if (instance_exists(obj_player)) {
-	move_towards_point(player_x, player_y, spd)
-}
 
-if (hp <= 0) {
-	audio_play_sound(snd_boss_death, 5, false)
-	global.killed_boss = global.killed_boss + 1
-	obj_player.level += 1
-	instance_destroy()
-
-	
-}
 
 if (bullet_cooldown < 1) {
 	instance_create_layer(x,y - 100, "BulletsLayer", obj_boss_bullet)

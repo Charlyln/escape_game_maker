@@ -12,10 +12,10 @@ else if (obj_player.level < 10) {
 	boss_1_is_drop = true
 	audio_stop_sound(snd_start);
 	audio_play_sound(snd_boss_start, 2, true)
-} else if (boss_1_is_drop && !instance_exists(obj_enemy_boss_1) && obj_player.level >= 11) {
-		drop_enemy(player_x , player_y , prt_boss)
+} else if (global.killed_boss == 1 && obj_player.level >= 11) {
+		drop_enemy(player_x , player_y , obj_enemy_spawn_11)
 		spawnrate = 30
-} else if (boss_1_is_drop && !instance_exists(obj_enemy_boss_1) && obj_player.level >= 15) {
+} else if  (global.killed_boss == 1 && obj_player.level >= 15) {
 		drop_enemy(player_x , player_y , obj_enemy_spawn_11)
 		spawnrate = 10
 }
