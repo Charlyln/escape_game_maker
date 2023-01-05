@@ -48,7 +48,7 @@ if (!pause && !dying) {
 	} else if (move_up || move_left || move_down || move_right) {
 		if (alarm[0] > 0) {
 			image_alpha = 0.5;
-			obj_prt_weapon.image_alpha = 0.5;
+			prt_weapon.image_alpha = 0.5;
 
 			if (dash_direction == "up") {
 				sprite_index = spr_player_dash_up;
@@ -113,7 +113,7 @@ if (!pause && !dying) {
 		} else {
 			sprite_index = spr_player_idle;
 			image_alpha = 1;
-			obj_prt_weapon.image_alpha = 1;
+			prt_weapon.image_alpha = 1;
 		}
 	} else {
 		sprite_index =  spr_enemy_129;
@@ -139,24 +139,24 @@ if (!pause && !dying) {
 
 	// XP
 
-	xpDisplayX = camera_get_view_x(view_camera[0]);
-	xpDisplayY = camera_get_view_y(view_camera[0]);
+	x_value = camera_get_view_x(view_camera[0]);
+	y_value = camera_get_view_y(view_camera[0]);
 
 	if (xp >= 100) {
 		level += 1;
 		xp = 0;
 		pause = true;
 		instance_deactivate_all(true);
-		perk_choice(xpDisplayX, xpDisplayY);
+		perk_choice(x_value, y_value);
 		audio_play_sound(snd_powerup, 1, false, 1);
 	}
 }
 
 if (dead && !instances_created) {
 	sprite_index = spr_player_dead;
-	instance_create_layer(xpDisplayX + 50, xpDisplayY + 20, "lyr_commands", obj_text_game_you_died);
-	instance_create_layer(xpDisplayX + 50, xpDisplayY + 20, "lyr_commands", obj_recap_infos);
-	instance_create_layer(xpDisplayX + 960, xpDisplayY + 700, "lyr_commands", obj_text_button_restart);
+	instance_create_layer(x_value + 50, y_value + 20, "lyr_commands", obj_text_game_you_died);
+	instance_create_layer(x_value + 50, y_value + 20, "lyr_commands", obj_recap_infos);
+	instance_create_layer(x_value + 960, y_value + 700, "lyr_commands", obj_text_button_restart);
 	audio_stop_sound(snd_start);
 	audio_stop_sound(snd_boss_start);
 	

@@ -17,7 +17,7 @@
   "soundFile": "snd_dash_reload.mp3",
   "duration": 0.835918,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "player",
+    "path": "folders/Sounds/player.yy",
   },
 }

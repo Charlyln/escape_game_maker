@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_text_button_tutoriel_special",
   "spriteId": {
-    "name": "Sprite80",
-    "path": "sprites/Sprite80/Sprite80.yy",
+    "name": "spr_button_empty",
+    "path": "sprites/spr_button_empty/spr_button_empty.yy",
   },
   "solid": false,
   "visible": true,

@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_window",
-  "spriteId": {
-    "name": "spr_window",
-    "path": "sprites/spr_window/spr_window.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

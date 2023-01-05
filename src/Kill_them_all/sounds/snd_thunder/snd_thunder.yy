@@ -17,7 +17,7 @@
   "soundFile": "snd_thunder.wav",
   "duration": 2.666667,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "weapons",
+    "path": "folders/Sounds/weapons.yy",
   },
 }

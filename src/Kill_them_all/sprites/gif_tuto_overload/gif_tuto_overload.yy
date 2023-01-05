@@ -278,7 +278,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "tutoriel",
-    "path": "folders/Sprites/tutoriel.yy",
+    "name": "gif",
+    "path": "folders/Sprites/tutoriel/gif.yy",
   },
 }

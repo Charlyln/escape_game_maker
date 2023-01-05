@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_tuto_button",
-  "spriteId": {
-    "name": "spr_tuto_button",
-    "path": "sprites/spr_tuto_button/spr_tuto_button.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

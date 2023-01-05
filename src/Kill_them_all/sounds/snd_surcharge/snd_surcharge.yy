@@ -17,7 +17,7 @@
   "soundFile": "snd_surcharge.mp3",
   "duration": 1.567347,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "weapons",
+    "path": "folders/Sounds/weapons.yy",
   },
 }

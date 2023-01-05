@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_prt_weapon",
-    "path": "objects/obj_prt_weapon/obj_prt_weapon.yy",
+    "name": "prt_weapon",
+    "path": "objects/prt_weapon/prt_weapon.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

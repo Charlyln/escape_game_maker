@@ -68,7 +68,7 @@ perks = [
 
 range = 3
 
-perk_choice = function (xpDisplayX, xpDisplayY) {
+perk_choice = function (x_value, y_value) {
 	
 	random1 = irandom(range)
     random2 = irandom(range)
@@ -79,8 +79,8 @@ perk_choice = function (xpDisplayX, xpDisplayY) {
 	
 	margin = camera_get_view_width(view_camera[0]) / 2
 	
-	create_perk(xpDisplayX + margin - 300, xpDisplayY + 400, perks[random1])
-	create_perk(xpDisplayX  + margin + 300, xpDisplayY + 400, perks[random2])
+	create_perk(x_value + margin - 300, y_value + 400, perks[random1])
+	create_perk(x_value  + margin + 300, y_value + 400, perks[random2])
 }
 
 

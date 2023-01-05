@@ -17,7 +17,7 @@
   "soundFile": "snd_boss_death.mp3",
   "duration": 2.063673,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "enemies",
+    "path": "folders/Sounds/enemies.yy",
   },
 }

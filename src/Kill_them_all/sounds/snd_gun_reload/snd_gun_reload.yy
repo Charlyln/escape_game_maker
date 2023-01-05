@@ -17,7 +17,7 @@
   "soundFile": "snd_gun_reload.wav",
   "duration": 1.437506,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "weapons",
+    "path": "folders/Sounds/weapons.yy",
   },
 }

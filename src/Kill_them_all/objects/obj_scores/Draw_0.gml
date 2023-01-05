@@ -12,7 +12,7 @@ draw_set_color(global.color_secondary)
 };
 
 
-draw_set_font(Font3)
+draw_set_font(fnt_1)
 draw_set_color(global.color_secondary)
 
 draw_text_transformed(x + 30, y - 50, "Scores", 0.75, 0.75, 0)

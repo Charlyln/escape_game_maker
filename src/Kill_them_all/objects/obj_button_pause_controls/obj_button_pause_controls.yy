@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_button_pause_controls",
-  "spriteId": {
-    "name": "spr_pause_controls",
-    "path": "sprites/spr_pause_controls/spr_pause_controls.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

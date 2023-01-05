@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_button_tutoriel",
-  "spriteId": {
-    "name": "spr_pause_tutoriel",
-    "path": "sprites/spr_pause_tutoriel/spr_pause_tutoriel.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
