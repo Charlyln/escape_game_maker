@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_enemy_spawn_10",
   "spriteId": {
-    "name": "spr_enemy_10",
-    "path": "sprites/spr_enemy_10/spr_enemy_10.yy",
+    "name": "spr_enemy_10_death",
+    "path": "sprites/spr_enemy_10_death/spr_enemy_10_death.yy",
   },
   "solid": false,
   "visible": true,

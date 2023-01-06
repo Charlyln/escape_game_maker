@@ -1,6 +1,5 @@
 spawnrate = 50
 alarm[0] = spawnrate
-//isDropPr = false
 boss_1_is_drop = false
 
 

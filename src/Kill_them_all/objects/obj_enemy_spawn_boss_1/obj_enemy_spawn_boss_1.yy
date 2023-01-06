@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_enemy_spawn_boss_1",
   "spriteId": {
-    "name": "spr_enemy_boss1",
-    "path": "sprites/spr_enemy_boss1/spr_enemy_boss1.yy",
+    "name": "spr_enemy_boss_walk",
+    "path": "sprites/spr_enemy_boss_walk/spr_enemy_boss_walk.yy",
   },
   "solid": false,
   "visible": true,

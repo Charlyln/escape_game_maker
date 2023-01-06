@@ -27,10 +27,15 @@ if (is_dead) {
 	}
 }
 
+
+if (!is_boss) {
 if (is_dead) {
 	sprite_index = sprite_death;
 } else if (is_hit) {
 	sprite_index = sprite_hit;
 } else {
 	sprite_index = sprite_move;
+}
+
+
 }
