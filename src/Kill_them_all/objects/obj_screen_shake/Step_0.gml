@@ -19,6 +19,9 @@ if (shake) {
 } else if (bullet_shake) {
 	bullet_shake_range = 5;
 	camera_set_view_pos(view_camera[0], x_value + random_range(-bullet_shake_range, bullet_shake_range), y_value + random_range(-bullet_shake_range, bullet_shake_range));
+}else if (obj_player.is_hit) {
+	bullet_shake_range = 10;
+	camera_set_view_pos(view_camera[0], x_value + random_range(-bullet_shake_range, bullet_shake_range), y_value + random_range(-bullet_shake_range, bullet_shake_range));
 } else {
 	camera_set_view_pos(view_camera[0], x_value, y_value);
 }

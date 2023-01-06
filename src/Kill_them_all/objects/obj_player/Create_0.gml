@@ -4,13 +4,16 @@ moove_speed_malus = 0
 fire_rate = 0.4
 damage = 1
 xp = 0
+pv = 3
 level = 0
 pause = false
+
 
 image_xscale = 2
 image_yscale = image_xscale
 
 invulnerability = false
+is_hit = false
 dead = false
 dying = false
 dashing = false

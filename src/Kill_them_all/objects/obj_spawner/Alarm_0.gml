@@ -2,12 +2,12 @@ player_x = obj_player.x
 player_y = obj_player.y
 range = random_range(-10, 10) * 100
 
-//if (obj_player.level < 5 ) {
-//		drop_enemy(player_x , player_y , obj_enemyspawn)
-//} 
-//else if (obj_player.level < 10) {
-//		drop_enemy(player_x , player_y , obj_enemy_spawn_10)
-//} else 
+if (obj_player.level < 5 ) {
+		drop_enemy(player_x , player_y , obj_enemyspawn)
+} 
+else if (obj_player.level < 10) {
+		drop_enemy(player_x , player_y , obj_enemy_spawn_10)
+} else 
 
 if (!boss_1_is_drop) {
 	drop_enemy(player_x + 400, player_y - 200, obj_enemy_spawn_boss_1)

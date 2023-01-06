@@ -45,7 +45,10 @@ if (!pause && !dying) {
 	if (alarm[1] <= 20 && !can_dash) {
 		if (alarm[1] == 20) audio_play_sound(snd_dash_reload, 1, false);
 		sprite_index = spr_player_dash_reload;
-	} else if (move_up || move_left || move_down || move_right) {
+	} else if (is_hit) {
+	
+		sprite_index = spr_player_hit
+	}  else if (move_up || move_left || move_down || move_right) {
 		if (alarm[0] > 0) {
 			image_alpha = 0.5;
 			prt_weapon.image_alpha = 0.5;
@@ -164,3 +167,12 @@ if (dead && !instances_created) {
 	
 	instances_created = true
 } 
+
+if (pv < 1 && !dying && !dead) {
+	dying = true
+	pause = true
+	instance_deactivate_all(true);
+	alarm[3]= 30
+	audio_play_sound(snd_player_death, 2, false, 1)
+	sprite_index = spr_player_death
+}
