@@ -160,8 +160,8 @@ if (dead && !instances_created) {
 	instance_create_layer(x_value + 50, y_value + 20, "lyr_commands", obj_text_game_you_died);
 	instance_create_layer(x_value + 50, y_value + 20, "lyr_commands", obj_recap_infos);
 	instance_create_layer(x_value + 960, y_value + 700, "lyr_commands", obj_text_button_restart);
-	audio_stop_sound(snd_start);
-	audio_stop_sound(snd_boss_start);
+	audio_stop_sound(snd_music_1s);
+	//audio_stop_sound(snd_boss_start);
 	
 
 	

@@ -30,32 +30,38 @@ if (!obj_player.pause) {
 
 	if (shoot && cooldown < 1 && bullet_in_magazine > 0) {
 		for (var i = 0; i < projectile; i += 1) {
+			if (global.beat) {
 			instance_create_layer(x, y, "BulletsLayer", obj_bullet);
-		}
-
-		shooting = true;
+			shooting = true;
 
 		audio_play_sound(snd_weapon_bullet_2, 2, false, 0.5);
 		cooldown = weapon_cooldown - obj_player.fire_rate;
 		bullet_in_magazine -= 1;
+			} else {
+			//instance_create_layer(x, y, "BulletsLayer", obj_bullet);
+			}
+			
+		}
+
+		
 	} else {
 		shooting = false;
 	}
 
-	if (trigger_raise_during_reload && !surcharge_range && shoot && !success_surcharge) {
-		trigger_raise_during_reload = false;
+	if (trigger_release_during_reload && !global.beat && shoot && !success_surcharge) {
+		trigger_release_during_reload = false;
 		miss_surcharge = true;
-		
-		audio_play_sound(snd_no_more_bullet ,1, false)
-	} else if (trigger_raise_during_reload && surcharge_range && shoot && !miss_surcharge && !success_surcharge) {
+		show_debug_message(global.beat);
+		audio_play_sound(snd_no_more_bullet, 1, false);
+	} else if (trigger_release_during_reload && global.beat && shoot && !miss_surcharge && !success_surcharge) {
 		alarm[0] = reload_sprite_time;
 		audio_play_sound(reload_sound, 1, false, 1);
 		audio_play_sound(snd_surcharge, 1, false);
 		success_surcharge = true;
 	}
 
-	if (reloading && !shoot && !trigger_raise_during_reload) {
-		trigger_raise_during_reload = true;
+	if (reloading && !shoot && !trigger_release_during_reload) {
+		trigger_release_during_reload = true;
 	}
 
 	if (bullet_in_magazine < 1 && !reloading) {
@@ -80,7 +86,4 @@ if (!obj_player.pause) {
 	cooldown -= 1;
 	cooldown_sec -= 1;
 }
-//else if (!global.loading) {
-//res = http_get("https://pokeapi.co/api/v2/berry-firmness");
-//global.loading = true
-//}
+

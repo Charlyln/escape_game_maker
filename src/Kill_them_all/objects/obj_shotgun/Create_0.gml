@@ -8,12 +8,12 @@ snd_weapon_bullet_2 = snd_bullet_5
 
 reload_sprite_time = 25
 
-magazine_capacity = 5
+magazine_capacity = 8
 bullet_in_magazine = magazine_capacity
-weapon_cooldown = 40
+weapon_cooldown = 60
 time_reload = 150
 sound_limit = 30
-projectile = 8
+projectile = 4
 
 
 

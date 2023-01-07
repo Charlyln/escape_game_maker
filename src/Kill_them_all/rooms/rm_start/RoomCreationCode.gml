@@ -6,3 +6,8 @@ instance_create_layer(240,170,"lyr_ui", obj_text_button_tutoriel)
 instance_create_layer(240,200,"lyr_ui", obj_text_button_quit)
 
 instance_create_layer(360,130,"lyr_ui", obj_scores)
+
+
+if (!instance_exists(obj_beat)) {
+instance_create_layer(0,0,"lyr_ui", obj_beat)
+}

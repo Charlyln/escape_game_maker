@@ -5,5 +5,5 @@ scale = 2
 
 do_action_button = function () {
 room_goto(1);	
-audio_play_sound(snd_start, 1, true)
+//audio_play_sound(snd_music_1, 1, true)
 };

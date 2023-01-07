@@ -22,12 +22,12 @@ custom_green = #00FF00
 	
 		} else if (miss_surcharge) {
 			draw_healthbar(x - 48, y + 30, x  -55, y - 25, reload_percent, c_black, c_red, c_red, 2, false, false)
-		} else if (reload_percent >= 70 || reload_percent <= 50 && !success_surcharge && !miss_surcharge) {
+		} else if (reload_percent >= 90 || reload_percent <= 10 && !success_surcharge && !miss_surcharge) {
 			draw_healthbar(x - 48, y + 30, x  -55, y - 25, reload_percent, c_black, c_gray, c_gray, 2, false, false)
-			surcharge_range = false
+			//surcharge_range = false
 		} else{
-			surcharge_range = true
-			draw_healthbar(x - 48, y + 30, x  -55, y - 25, reload_percent, c_black, custom_green, custom_green, 2, false, false)
+			//surcharge_range = true
+			draw_healthbar(x - 48, y + 30, x  -55, y - 25, reload_percent, c_black, c_gray, c_gray, 2, false, false)
 		}
 	}
 	

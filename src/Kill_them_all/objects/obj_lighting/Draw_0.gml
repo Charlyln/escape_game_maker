@@ -27,6 +27,11 @@ if (!surface_exists(surf)) {
 				draw_sprite_ext(spr_Light_Bulb, 0, x - _cx, y - _cy, 8, 8, 0, c_white, 1);
 				}
 				
+				if (global.beat) {
+				draw_sprite_ext(spr_Light_Bulb, 0, x - _cx, y - _cy, 8, 8, 0, c_white, 1);
+				draw_sprite_ext(spr_Light_Bulb, 0, x - _cx, y - _cy, 8, 8, 0, c_white, 1);
+				}
+				
 				break;
 				
 				case obj_bullet_sec:

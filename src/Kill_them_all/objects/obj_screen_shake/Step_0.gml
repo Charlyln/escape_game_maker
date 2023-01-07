@@ -13,6 +13,9 @@ if (prt_weapon.shooting) {
 	alarm[1] = 20;
 }
 
+
+
+
 if (shake) {
 	shake_range = 10;
 	camera_set_view_pos(view_camera[0], x_value + random_range(-shake_range, shake_range), y_value + random_range(-shake_range, shake_range));
@@ -22,7 +25,11 @@ if (shake) {
 }else if (obj_player.is_hit) {
 	bullet_shake_range = 10;
 	camera_set_view_pos(view_camera[0], x_value + random_range(-bullet_shake_range, bullet_shake_range), y_value + random_range(-bullet_shake_range, bullet_shake_range));
-} else {
+} else 
+if (global.beat) {
+	shake_range = 5;
+	camera_set_view_pos(view_camera[0], x_value + random_range(-shake_range, shake_range), y_value + random_range(-shake_range, shake_range));
+}else {
 	camera_set_view_pos(view_camera[0], x_value, y_value);
 }
 }
