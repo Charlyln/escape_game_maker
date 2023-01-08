@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_music_1s",
+  "name": "snd_music_1s36",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.03,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_music_1s.wav",
-  "duration": 2.156553,
+  "soundFile": "snd_music_1s36.wav",
+  "duration": 7.999375,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",

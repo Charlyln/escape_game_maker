@@ -55,8 +55,8 @@ if (!obj_player.pause) {
 		audio_play_sound(snd_no_more_bullet, 1, false);
 	} else if (trigger_release_during_reload && global.beat && shoot && !miss_surcharge && !success_surcharge) {
 		alarm[0] = reload_sprite_time;
-		audio_play_sound(reload_sound, 1, false, 1);
-		audio_play_sound(snd_surcharge, 1, false);
+		audio_play_sound(snd_clap, 1, false, 1);
+		//audio_play_sound(snd_surcharge, 1, false);
 		success_surcharge = true;
 	}
 
@@ -70,17 +70,17 @@ if (!obj_player.pause) {
 	}
 
 	if (reloading && alarm[0] == reload_sprite_time) {
-		audio_play_sound(reload_sound, 1, false);
+		//audio_play_sound(reload_sound, 1, false);
 	}
 
-	if (special && cooldown_sec < 1) {
+	if (special && cooldown_sec < 1 && global.beat ) {
 		sprite_index = spr_enemy_12931;
 
 		for (var i = 0; i < 1; i += 1) {
 			instance_create_layer(x, y, "BulletsLayer", obj_bullet_sec);
 		}
 
-		audio_play_sound(snd_fire, 1, false, 1);
+		audio_play_sound(snd_cymbal, 1, false, 1);
 		cooldown_sec = special_reload_time;
 	}
 	cooldown -= 1;

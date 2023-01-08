@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_music_1s",
+  "name": "snd_clap",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.03,
+  "volume": 0.15,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_music_1s.wav",
-  "duration": 2.156553,
+  "soundFile": "snd_clap.wav",
+  "duration": 0.323968,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",

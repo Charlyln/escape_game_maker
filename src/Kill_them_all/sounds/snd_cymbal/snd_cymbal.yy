@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_music_1s",
+  "name": "snd_cymbal",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.03,
+  "volume": 0.1,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_music_1s.wav",
-  "duration": 2.156553,
+  "soundFile": "snd_cymbal.wav",
+  "duration": 1.362354,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",

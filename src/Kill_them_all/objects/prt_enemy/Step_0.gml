@@ -23,7 +23,7 @@ if (is_dead) {
 	spd = 0;
 	recovering = true;
 	if (is_burned) {
-		alarm[2] = 60;
+		alarm[2] = 150;
 	}
 }
 

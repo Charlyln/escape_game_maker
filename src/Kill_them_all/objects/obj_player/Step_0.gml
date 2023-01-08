@@ -46,7 +46,6 @@ if (!pause && !dying) {
 		if (alarm[1] == 20) audio_play_sound(snd_dash_reload, 1, false);
 		sprite_index = spr_player_dash_reload;
 	} else if (is_hit) {
-	
 		sprite_index = spr_player_hit
 	}  else if (move_up || move_left || move_down || move_right) {
 		if (alarm[0] > 0) {
@@ -124,9 +123,9 @@ if (!pause && !dying) {
 
 	// Dash
 
-	start_dashing = keyboard_check_pressed(vk_space);
+	press_dash = keyboard_check_pressed(vk_space);
 
-	if (start_dashing && can_dash) {
+	if (press_dash && global.beat && can_dash) {
 		dashing = true;
 
 		dash_direction = get_dash_direction(move_up, move_left, move_down, move_right);
@@ -134,10 +133,10 @@ if (!pause && !dying) {
 		moove_speed = moove_speed + dash_speed;
 		alarm[0] = dash_duration;
 		alarm[1] = dash_cooldown;
-		audio_play_sound(snd_dash, 1, false);
+		audio_play_sound(snd_dash_beat, 1, false);
 		can_dash = false;
 		invulnerability = true;
-		start_dashing = false;
+		press_dash = false;
 	}
 
 	// XP
@@ -161,6 +160,7 @@ if (dead && !instances_created) {
 	instance_create_layer(x_value + 50, y_value + 20, "lyr_commands", obj_recap_infos);
 	instance_create_layer(x_value + 960, y_value + 700, "lyr_commands", obj_text_button_restart);
 	audio_stop_sound(snd_music_1s);
+	audio_stop_sound(snd_music_2s);
 	//audio_stop_sound(snd_boss_start);
 	
 

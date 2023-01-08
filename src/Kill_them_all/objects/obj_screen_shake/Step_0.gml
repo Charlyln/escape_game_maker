@@ -32,4 +32,11 @@ if (global.beat) {
 }else {
 	camera_set_view_pos(view_camera[0], x_value, y_value);
 }
+} else {
+if (global.beat) {
+	shake_range = 5;
+	x_value = camera_get_view_x(view_camera[0]);
+y_value = camera_get_view_y(view_camera[0]);
+	camera_set_view_pos(view_camera[0], x_value + random_range(-shake_range, shake_range), y_value + random_range(-shake_range, shake_range));
+}
 }
