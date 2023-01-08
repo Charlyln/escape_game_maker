@@ -3,12 +3,12 @@ event_inherited();
 player_x = obj_player.x;
 player_y = obj_player.y;
 
-if (bullet_cooldown < 1) {
-	instance_create_layer(x, y - 100, "BulletsLayer", obj_boss_bullet);
-	bullet_cooldown = bullet_time_cooldown;
-}
+//if (bullet_cooldown < 1) {
+//	instance_create_layer(x, y - 100, "BulletsLayer", obj_boss_bullet);
+//	bullet_cooldown = bullet_time_cooldown;
+//}
 
-if (bullet_2_cooldown < 1) {
+if (bullet_2_cooldown < 1 && global.beat) {
 	audio_play_sound(snd_boss_death, 5, false);
 
 	var dirIncrement = 360 / nbr_of_bullets;

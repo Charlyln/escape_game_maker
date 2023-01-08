@@ -48,15 +48,19 @@ if (!obj_player.pause) {
 		shooting = false;
 	}
 
-	if (trigger_release_during_reload && !global.beat && shoot && !success_surcharge) {
+	if (trigger_release_during_reload && !global.human_beat && shoot && !success_surcharge) {
 		trigger_release_during_reload = false;
 		miss_surcharge = true;
-		show_debug_message(global.beat);
 		audio_play_sound(snd_no_more_bullet, 1, false);
-	} else if (trigger_release_during_reload && global.beat && shoot && !miss_surcharge && !success_surcharge) {
+	} else if (trigger_release_during_reload && global.human_beat && shoot && !miss_surcharge && !success_surcharge) {
 		alarm[0] = reload_sprite_time;
 		audio_play_sound(snd_clap, 1, false, 1);
-		//audio_play_sound(snd_surcharge, 1, false);
+		if (!global.beat_tutoriel_reload) {
+			
+		global.beat_tutoriel_reload = true
+		obj_beat_tuto.alarm[0] = 200
+		}
+		
 		success_surcharge = true;
 	}
 
@@ -75,6 +79,11 @@ if (!obj_player.pause) {
 
 	if (special && cooldown_sec < 1 && global.beat ) {
 		sprite_index = spr_enemy_12931;
+		
+				if (!global.beat_tutoriel_special) {
+		global.beat_tutoriel_special = true
+		obj_beat_tuto.alarm[0] = 200
+		}
 
 		for (var i = 0; i < 1; i += 1) {
 			instance_create_layer(x, y, "BulletsLayer", obj_bullet_sec);

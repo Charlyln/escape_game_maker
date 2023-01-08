@@ -6,8 +6,8 @@ with (other) {
 		
 		is_hit = true;
 
-		if (!audio_is_playing(snd_thunder)) {
-			audio_play_sound(snd_thunder, 1, false, 1);
-		}
+		//if (!audio_is_playing(snd_thunder)) {
+		//	audio_play_sound(snd_thunder, 1, false, 1);
+		//}
 	}
 }

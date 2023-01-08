@@ -20,10 +20,13 @@ dashing = false
 dash_direction = ""
 press_dash = false
 dash_speed = 10
-dash_duration = 15
-dash_cooldown = 130
+dash_duration = 10
+dash_beat_duration = 30
+beat_dashing = false
+dash_cooldown = 10
 can_dash = true
 instances_created = false
+is_perk_choice = false
 
 global.killed_enemies = 0
 global.killed_boss = 0

@@ -10,7 +10,7 @@ reload_sprite_time = 20
 
 magazine_capacity = 18
 bullet_in_magazine = magazine_capacity
-weapon_cooldown = 6
+weapon_cooldown = 4
 time_reload = 200
 sound_limit = 30
 projectile = 1

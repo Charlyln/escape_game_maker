@@ -7,7 +7,7 @@ is_boss = true
 bullet_cooldown = 0
 bullet_time_cooldown = 10
 bullet_2_cooldown = 0
-bullet_2_time_cooldown = 500
+bullet_2_time_cooldown = 200
 nbr_of_bullets = 32
 circle_bullet_speed = 5
 

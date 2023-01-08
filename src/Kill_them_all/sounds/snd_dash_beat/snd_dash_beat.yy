@@ -4,7 +4,7 @@
   "name": "snd_dash_beat",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.3,
+  "volume": 0.2,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_dash_beat.wav",
-  "duration": 0.409229,
+  "duration": 2.156562,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",
