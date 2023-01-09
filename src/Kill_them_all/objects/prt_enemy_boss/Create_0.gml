@@ -1,6 +1,6 @@
 event_inherited()
 
-total_hp = 2000
+total_hp = 100
 hp = total_hp
 spd = 1
 is_boss = true

@@ -1,10 +1,10 @@
-moove_speed = 4
+moove_speed = 2
 moove_speed_malus = 0
 
 fire_rate = 0.4
 damage = 1
 xp = 0
-pv = 3
+pv = 5
 level = 0
 pause = false
 
@@ -68,25 +68,25 @@ switch (global.setup_weapon)
 perks = [
 	obj_power_speed,
 	obj_power_damage,
-	obj_power_bullet_speed,
-	obj_power_projectile
+	//obj_power_bullet_speed,
+	//obj_power_projectile
 ]
 
-range = 3
+//range = 1
 
 perk_choice = function (x_value, y_value) {
 	
-	random1 = irandom(range)
-    random2 = irandom(range)
+	//random1 = irandom(range)
+    //random2 = irandom(range)
 	
-	while (random1 == random2) {
-		random2 = irandom(range)
-	}
+	//while (random1 == random2) {
+	//	random2 = irandom(range)
+	//}
 	
 	margin = camera_get_view_width(view_camera[0]) / 2
 	
-	create_perk(x_value + margin - 300, y_value + 400, perks[random1])
-	create_perk(x_value  + margin + 300, y_value + 400, perks[random2])
+	create_perk(x_value + margin - 300, y_value + 400, perks[0])
+	create_perk(x_value  + margin + 300, y_value + 400, perks[1])
 }
 
 

@@ -1,7 +1,7 @@
 event_inherited()
 
 // Stats 
-hp = 25
+hp = 20
 spd = 3
 
 
