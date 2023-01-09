@@ -8,6 +8,7 @@ y_value = camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camer
 
 do_action_button = function () {
 	
+	
 	if (global.name == "no_name" ) {
 	instance_create_layer(x_value,y_value, "lyr_recap", obj_input_choice)
 	instance_destroy()

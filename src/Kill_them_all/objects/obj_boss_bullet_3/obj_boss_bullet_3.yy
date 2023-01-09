@@ -1,16 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "prt_enemy_boss",
-  "spriteId": null,
+  "name": "obj_boss_bullet_3",
+  "spriteId": {
+    "name": "spr_bullet_boss_2",
+    "path": "sprites/spr_bullet_boss_2/spr_bullet_boss_2.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "prt_enemy",
-    "path": "objects/prt_enemy/prt_enemy.yy",
+    "name": "obj_prt_bullet_enemy",
+    "path": "objects/obj_prt_bullet_enemy/obj_prt_bullet_enemy.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,15 +28,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":3,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "boss",
-    "path": "folders/Objects/characters/enemies/boss.yy",
+    "name": "bullets",
+    "path": "folders/Objects/bullets.yy",
   },
 }

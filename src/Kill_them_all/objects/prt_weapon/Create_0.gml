@@ -7,3 +7,4 @@ miss_surcharge = false
 success_surcharge = false
 special_reload_time = 360
 custom_pink =  #FD5161;
+is_reload_song = true

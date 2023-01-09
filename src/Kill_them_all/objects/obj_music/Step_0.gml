@@ -50,6 +50,8 @@ if (instance_exists(obj_player) && global.beat) {
 }
 
 
+if ( instance_exists(obj_player)) {
+
 			if (obj_player.beat_dashing && !beat_dashing_is_playing ) {
 							audio_sound_gain(global.beat_dash, 1, 0);
 							// show_debug_message("beat dash");
@@ -62,3 +64,5 @@ if (instance_exists(obj_player) && global.beat) {
 			beat_dashing_is_playing = false
 			
 			}
+
+}

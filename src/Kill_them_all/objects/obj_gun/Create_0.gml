@@ -6,7 +6,7 @@ reload_sound = snd_clap
 reloaded_sprite = spr_double_gun_reload
 snd_weapon_bullet_2 = snd_bullet_5
 
-reload_sprite_time = 15
+reload_sprite_time = 8
 
 magazine_capacity = 12
 bullet_in_magazine = magazine_capacity

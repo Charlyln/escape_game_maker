@@ -94,11 +94,20 @@ if (music_position < 0.05 && global.beat_loop == 1) {
 				global.can_play_beat_3 = false;
 			}
 			
+			if (global.beat_loop == 4 && music_position > 1 || global.beat_loop == 1 && music_position < 0.1) {
+				global.boss_can_shoot = true;
+			} else {
+				global.boss_can_shoot = false;
+			}
 			
-			show_debug_message(global.can_play_beat_3);
-show_debug_message(music_position);
-show_debug_message(global.beat_loop);
-show_debug_message("----------");
+			
+		
+			
+			
+//			show_debug_message(global.can_play_beat_3);
+//show_debug_message(music_position);
+//show_debug_message(global.beat_loop);
+//show_debug_message("----------");
 
 if (global.beat) {
 	//show_debug_message("BEAT");

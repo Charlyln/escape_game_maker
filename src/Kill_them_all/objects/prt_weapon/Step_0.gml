@@ -55,9 +55,11 @@ if (!obj_player.pause) {
 	} else if (trigger_release_during_reload && global.human_beat && shoot && !miss_surcharge && !success_surcharge) {
 		alarm[0] = reload_sprite_time;
 		audio_play_sound(snd_clap, 1, false, 1);
+
 		if (!global.beat_tutoriel_reload) {
 			
 		global.beat_tutoriel_reload = true
+		audio_play_sound(snd_yeah, 1, false, 1);
 		obj_beat_tuto.alarm[0] = 200
 		}
 		
@@ -73,15 +75,22 @@ if (!obj_player.pause) {
 		reloading = true;
 	}
 
-	if (reloading && alarm[0] == reload_sprite_time) {
-		//audio_play_sound(reload_sound, 1, false);
+	if (reloading && alarm[0] = 0) {
+		
+		if (!success_surcharge) {
+		
+		audio_play_sound(reload_sound, 1, false);
+		}
+		
+		alarm[1] = 10
 	}
 
 	if (special && cooldown_sec < 1 && global.beat ) {
 		sprite_index = spr_enemy_12931;
 		
-				if (!global.beat_tutoriel_special) {
+				if (!global.beat_tutoriel_special && global.beat_tutoriel_dash && global.beat_tutoriel_reload && obj_beat_tuto.alarm[0] < 1) {
 		global.beat_tutoriel_special = true
+		audio_play_sound(snd_yeah, 1, false, 1);
 		obj_beat_tuto.alarm[0] = 200
 		}
 

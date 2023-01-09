@@ -15,6 +15,7 @@ global.human_beat_miss = false
 global.human_beat = false 
 
 global.can_play_beat_3 = false
+global.boss_can_shoot = false
 
 
 

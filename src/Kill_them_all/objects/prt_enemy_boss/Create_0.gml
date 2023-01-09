@@ -7,9 +7,12 @@ is_boss = true
 bullet_cooldown = 0
 bullet_time_cooldown = 10
 bullet_2_cooldown = 0
-bullet_2_time_cooldown = 200
+bullet_2_time_cooldown = 30
 nbr_of_bullets = 32
 circle_bullet_speed = 5
+nbr_of_circle_bullet_shoot = 3
+
+//alarm[3] = 0
 
 image_xscale = 5
 image_yscale =image_xscale 

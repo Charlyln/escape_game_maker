@@ -117,8 +117,10 @@ if (!pause && !dying) {
 	if (press_dash && global.human_beat && can_dash) {
 		dashing = true;
 		beat_dashing = true
-		if (!global.beat_tutoriel_dash) {
+		invulnerability = true;
+		if (!global.beat_tutoriel_dash && global.beat_tutoriel_reload && obj_beat_tuto.alarm[0] < 1) {
 		global.beat_tutoriel_dash = true
+		audio_play_sound(snd_yeah, 1, false, 1);
 		obj_beat_tuto.alarm[0] = 200
 		}
 		
@@ -129,7 +131,7 @@ if (!pause && !dying) {
 		alarm[1] = dash_cooldown;
 		alarm[4] = dash_beat_duration;
 		can_dash = false;
-		invulnerability = true;
+		
 		press_dash = false;
 	}
 
@@ -164,7 +166,7 @@ if (dead && !instances_created) {
 if (pv < 1 && !dying && !dead) {
 	dying = true;
 	pause = true;
-	instance_deactivate_all(true);
+	instance_deactivate_layer("EnemyLayer");
 	alarm[3] = 30;
 	audio_play_sound(snd_player_death, 2, false, 1);
 	sprite_index = spr_player_death;
