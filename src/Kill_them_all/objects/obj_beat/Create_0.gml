@@ -8,7 +8,7 @@ global.beat_transition = audio_play_sound(snd_beat_transition, 1, true, 0)
 global.beat = false
 global.music_position = 0
 
-global.beat_loop = 0
+global.beat_loop = 1
 global.beat_loop_reload = false
 
 global.human_beat_miss = false
@@ -16,6 +16,8 @@ global.human_beat = false
 
 global.can_play_beat_3 = false
 global.boss_can_shoot = false
+
+global.switch_to_beat_2 = false;
 
 
 

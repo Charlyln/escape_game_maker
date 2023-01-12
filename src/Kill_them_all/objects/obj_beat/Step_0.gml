@@ -1,19 +1,12 @@
 music_position = audio_sound_get_track_position(global.beat_1);
 
+
+global.switch_to_beat_2 = false;
+
 if (music_position <= beat_position_1 + beat_range) {
 	// < 0.1
 	global.beat = true;
 
-	if (!global.beat_loop_reload) {
-		if ((global.beat_loop = 4)) {
-			global.beat_loop = 1;
-			
-		} else {
-			global.beat_loop += 1;
-		}
-
-		global.beat_loop_reload = true;
-	}
 	
 	
 	
@@ -76,7 +69,8 @@ if (music_position <= beat_position_1 + beat_range) {
 } else if (music_position >= beat_position_5 - beat_range) {
 	// > 2.057
 	global.beat = true;
-	global.beat_loop_reload = false;
+	
+	global.switch_to_beat_2 = true;
 	// show_debug_message("BEAT");
 	global.can_play_beat_3 = false;
 } else {
@@ -86,13 +80,45 @@ if (music_position <= beat_position_1 + beat_range) {
 }
 global.music_position = music_position;
 
+ if (music_position < 2.1 && global.beat_loop_reload) {
+	 
+		if (global.beat_loop == 4) {
+			global.beat_loop = 1;
+			
+		} else {
+			global.beat_loop += 1;
+		}
+		
+		
+	
+	 
+	global.beat_loop_reload = false;
+ } else if (music_position >= 2.1) {
+	global.beat_loop_reload = true;
+ }
+ 
+// show_debug_message(global.beat_loop);
+//show_debug_message("----------");
+
+ 
+ //if (!global.beat_loop_reload) {
+	//	if (global.beat_loop == 4) {
+	//		global.beat_loop = 1;
+			
+	//	} else {
+	//		global.beat_loop += 1;
+	//	}
+
+	//	global.beat_loop_reload = true;
+	//}
+	
 
 
-if (music_position < 0.05 && global.beat_loop == 1) {
-				global.can_play_beat_3 = true;
-			} else {
-				global.can_play_beat_3 = false;
-			}
+//if (music_position < 0.05 && global.beat_loop == 1) {
+//				global.can_play_beat_3 = true;
+//			} else {
+//				global.can_play_beat_3 = false;
+//			}
 			
 			if (global.beat_loop == 4 && music_position > 1 || global.beat_loop == 1 && music_position < 0.1) {
 				global.boss_can_shoot = true;
@@ -106,8 +132,6 @@ if (music_position < 0.05 && global.beat_loop == 1) {
 			
 //			show_debug_message(global.can_play_beat_3);
 //show_debug_message(music_position);
-//show_debug_message(global.beat_loop);
-//show_debug_message("----------");
 
 if (global.beat) {
 	//show_debug_message("BEAT");

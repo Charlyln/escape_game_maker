@@ -10,6 +10,7 @@ global.name = "no_name"
 
 instance_create_layer(0,0,"lyr_init", obj_cursor)
 instance_create_layer(0,0,"lyr_init", obj_beat)
+instance_create_layer(0,0,"lyr_init", obj_music)
 
 
 

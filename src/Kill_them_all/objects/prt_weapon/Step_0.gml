@@ -86,7 +86,7 @@ if (!obj_player.pause) {
 	}
 
 	if (special && cooldown_sec < 1 && global.beat ) {
-		sprite_index = spr_enemy_12931;
+		//sprite_index = spr_enemy_12931;
 		
 				if (!global.beat_tutoriel_special && global.beat_tutoriel_dash && global.beat_tutoriel_reload && obj_beat_tuto.alarm[0] < 1) {
 		global.beat_tutoriel_special = true

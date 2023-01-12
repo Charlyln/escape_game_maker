@@ -54,46 +54,47 @@ if (!pause && !dying) {
 	
 	}
 
-	else if (alarm[1] <= 20 && !can_dash) {
-		sprite_index = spr_player_dash_reload;
-	} else if (is_hit) {
+	 else if (is_hit) {
 		sprite_index = spr_player_hit;
 	} else if (move_up || move_left || move_down || move_right) {
-		if (alarm[0] > 0) {
+			show_debug_message(dash_direction)
+		if (dashing) {
 			image_alpha = 0.5;
 			prt_weapon.image_alpha = 0.5;
+			
+			show_debug_message(dash_direction )
 
 			if (dash_direction == "up") {
 				sprite_index = spr_player_dash_up;
-				sprite_set_speed(spr_player_dash_up, 50, spritespeed_framespersecond);
+			sprite_set_speed(spr_player_dash_up, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "down") {
 				sprite_index = spr_player_dash_down;
-				sprite_set_speed(spr_player_dash_down, 50, spritespeed_framespersecond);
+			sprite_set_speed(spr_player_dash_down, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "right") {
 				sprite_index = spr_player_dash_right;
-				sprite_set_speed(spr_player_dash_right, 50, spritespeed_framespersecond);
+			sprite_set_speed(spr_player_dash_right, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "left") {
 				sprite_index = spr_player_dash_left;
-				sprite_set_speed(spr_player_dash_left, 50, spritespeed_framespersecond);
+			sprite_set_speed(spr_player_dash_left, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "left-down") {
 				sprite_index = spr_player_dash_left_down;
-				sprite_set_speed(spr_player_dash_left_down, 50, spritespeed_framespersecond);
+			sprite_set_speed(spr_player_dash_left_down, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "left-up") {
 				sprite_index = spr_player_dash_left_up;
-				sprite_set_speed(spr_player_dash_left_up, 50, spritespeed_framespersecond);
+			sprite_set_speed(spr_player_dash_left_up, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "right-down") {
 				sprite_index = spr_player_dash_right_down;
-				sprite_set_speed(spr_player_dash_right_down, 50, spritespeed_framespersecond);
+			sprite_set_speed(spr_player_dash_right_down, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "right-up") {
 				sprite_index = spr_player_dash_right_up;
-				sprite_set_speed(spr_player_dash_right_up, 50, spritespeed_framespersecond);
+			sprite_set_speed(spr_player_dash_right_up, 50, spritespeed_framespersecond);
 			}
 		} else {
 			sprite_index = spr_player_idle;
@@ -108,13 +109,9 @@ if (!pause && !dying) {
 
 	press_dash = keyboard_check_pressed(vk_space);
 	
-	if (press_dash) {
-	show_debug_message(global.music_position )
-		show_debug_message(global.beat_miss)
-		show_debug_message("--------------------------")
-	}
 
-	if (press_dash && global.human_beat && can_dash) {
+
+	if (press_dash && global.human_beat && can_dash && (move_up || move_left || move_right ||move_down)) {
 		dashing = true;
 		beat_dashing = true
 		invulnerability = true;
@@ -125,6 +122,8 @@ if (!pause && !dying) {
 		}
 		
 		dash_direction = get_dash_direction(move_up, move_left, move_down, move_right);
+		
+	
 
 		moove_speed = moove_speed + dash_speed;
 		alarm[0] = dash_duration;

@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "contollers",
-    "path": "folders/Objects/contollers.yy",
+    "name": "window",
+    "path": "folders/Objects/ui/window.yy",
   },
 }
