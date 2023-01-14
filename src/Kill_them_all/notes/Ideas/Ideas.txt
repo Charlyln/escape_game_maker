@@ -12,6 +12,8 @@ add perks:
 - and so maybe add speed bullet 
 - multiple dash
 
+balles plus le"ntes boss 
+sprite reload tout le reload
 
 mettre en pause le timer
 soard attack

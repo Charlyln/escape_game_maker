@@ -9,7 +9,7 @@ if (!obj_player.pause) {
 	x_value = camera_get_view_x(view_camera[0]);
 	mouse_x_from_start_camera = device_mouse_x_to_gui(0);
 
-	if (reloading && alarm[0] <= reload_sprite_time) {
+	if (reloading && alarm[0] < time_reload) {
 		sprite_index = reloaded_sprite;
 	} else if (x_value + mouse_x_from_start_camera < x) {
 		sprite_index = flip_sprite;

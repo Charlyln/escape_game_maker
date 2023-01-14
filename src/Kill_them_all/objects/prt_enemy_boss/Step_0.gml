@@ -4,7 +4,7 @@ player_x = obj_player.x;
 player_y = obj_player.y;
 
 if (bullet_cooldown < 1 && global.beat) {
-	instance_create_layer(x, y - 100, "BulletsLayer", obj_boss_bullet);
+	//instance_create_layer(x, y - 100, "BulletsLayer", obj_boss_bullet);
 	bullet_cooldown = bullet_time_cooldown;
 }
 
@@ -62,7 +62,7 @@ bullet_2_cooldown -= 1;
 if (is_dead) {
 	sprite_index = sprite_death;
 	spd = 0;
-} else if ( global.boss_can_shoot) {
+} else if (global.boss_can_shoot) {
 	sprite_index = sprite_attack;
 	spd = 0;
 } else if (is_hit) {

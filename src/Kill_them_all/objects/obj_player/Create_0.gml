@@ -5,7 +5,7 @@ fire_rate = 0.4
 damage = 1
 xp = 0
 pv = 5
-level = 0
+level = 2
 pause = false
 
 

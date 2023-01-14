@@ -1,8 +1,8 @@
 event_inherited()
 
 // Stats 
-hp = 20
-spd = 3
+hp = 2 // TORESET
+spd = 0 // TORESET
 
 
 // Sprites 
