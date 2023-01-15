@@ -8,10 +8,14 @@ if (bullet_cooldown < 1 && global.beat && hp < total_hp / 2 ) {
 	bullet_cooldown = bullet_time_cooldown;
 }
 
+
+
 if (bullet_2_cooldown < 1 && global.beat && nbr_of_circle_bullet_shoot > 0 && global.boss_can_shoot) {
 	var dirIncrement = 360 / nbr_of_bullets;
 	var projectile;
 	var dir = 0;
+	
+
 
 	repeat (nbr_of_bullets) {
 		if (prt_enemy_boss.nbr_of_circle_bullet_shoot < 2) {
@@ -40,16 +44,19 @@ if (bullet_2_cooldown < 1 && global.beat && nbr_of_circle_bullet_shoot > 0 && gl
 bullet_cooldown -= 1;
 bullet_2_cooldown -= 1;
 
+
+if (global.boss_can_shoot || is_dead) {
+spd = 0;
+} else {
+spd = 1;
+}
+ 
 if (is_dead) {
 	sprite_index = sprite_death;
-	spd = 0;
 } else if (global.beat) {
 	sprite_index = sprite_attack;
-	spd = 0;
-} else if (is_hit) {
-	spd = 1;
-	sprite_index = sprite_hit;
-} else {
+} else if (hp < total_hp / 2) {
+	sprite_index = sprite_angry;
+} else  {
 	sprite_index = sprite_move;
-	spd = 1;
 }

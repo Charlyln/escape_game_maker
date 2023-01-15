@@ -40,61 +40,51 @@ if (!pause && !dying) {
 	}
 
 	// Animations
-	
-	if (is_perk_choice) {
-	
+
+	if (is_perk_choice || pause) {
 		if (global.beat) {
 			sprite_index = spr_dance;
-				
 		} else {
 			sprite_index = spr_no_dance;
-		
 		}
-		
-	
-	}
-
-	 else if (is_hit) {
+	} else if (is_hit) {
 		sprite_index = spr_hit;
 	} else if (move_up || move_left || move_down || move_right) {
-		
 		if (dashing) {
 			image_alpha = 0.5;
 			prt_weapon.image_alpha = 0.5;
-			
-		
 
 			if (dash_direction == "up") {
 				sprite_index = spr_dash_up;
-			sprite_set_speed(spr_dash_up, 50, spritespeed_framespersecond);
+				sprite_set_speed(spr_dash_up, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "down") {
 				sprite_index = spr_dash_down;
-			sprite_set_speed(spr_dash_down, 50, spritespeed_framespersecond);
+				sprite_set_speed(spr_dash_down, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "right") {
 				sprite_index = spr_dash_right;
-			sprite_set_speed(spr_dash_right, 50, spritespeed_framespersecond);
+				sprite_set_speed(spr_dash_right, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "left") {
 				sprite_index = spr_dash_left;
-			sprite_set_speed(spr_dash_left, 50, spritespeed_framespersecond);
+				sprite_set_speed(spr_dash_left, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "left-down") {
 				sprite_index = spr_dash_left_down;
-			sprite_set_speed(spr_dash_left_down, 50, spritespeed_framespersecond);
+				sprite_set_speed(spr_dash_left_down, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "left-up") {
 				sprite_index = spr_dash_left_up;
-			sprite_set_speed(spr_dash_left_up, 50, spritespeed_framespersecond);
+				sprite_set_speed(spr_dash_left_up, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "right-down") {
 				sprite_index = spr_dash_right_down;
-			sprite_set_speed(spr_dash_right_down, 50, spritespeed_framespersecond);
+				sprite_set_speed(spr_dash_right_down, 50, spritespeed_framespersecond);
 			}
 			if (dash_direction == "right-up") {
 				sprite_index = spr_dash_right_up;
-			sprite_set_speed(spr_dash_right_up, 50, spritespeed_framespersecond);
+				sprite_set_speed(spr_dash_right_up, 50, spritespeed_framespersecond);
 			}
 		} else {
 			sprite_index = spr_walk;
@@ -108,29 +98,25 @@ if (!pause && !dying) {
 	// Dash
 
 	press_dash = keyboard_check_pressed(vk_space);
-	
 
-
-	if (press_dash && global.human_beat && can_dash && (move_up || move_left || move_right ||move_down)) {
+	if (press_dash && global.human_beat && can_dash && (move_up || move_left || move_right || move_down)) {
 		dashing = true;
-		beat_dashing = true
+		beat_dashing = true;
 		invulnerability = true;
 		if (!global.beat_tutoriel_dash && global.beat_tutoriel_reload && obj_beat_tuto.alarm[0] < 1) {
-		global.beat_tutoriel_dash = true
-		audio_play_sound(snd_yeah, 1, false, 1);
-		obj_beat_tuto.alarm[0] = 200
+			global.beat_tutoriel_dash = true;
+			audio_play_sound(snd_yeah, 1, false, 1);
+			obj_beat_tuto.alarm[0] = 200;
 		}
-		
+
 		dash_direction = get_dash_direction(move_up, move_left, move_down, move_right);
-		
-	
 
 		moove_speed = moove_speed + dash_speed;
 		alarm[0] = dash_duration;
 		alarm[1] = dash_cooldown;
 		alarm[4] = dash_beat_duration;
 		can_dash = false;
-		
+
 		press_dash = false;
 	}
 
@@ -140,12 +126,13 @@ if (!pause && !dying) {
 	y_value = camera_get_view_y(view_camera[0]);
 
 	if (xp >= 100) {
-		prt_weapon.alarm[1] = 0
+		prt_weapon.alarm[1] = 0;
 		is_perk_choice = true;
 		level += 1;
 		xp = 0;
 		pause = true;
 		instance_deactivate_layer("EnemyLayer");
+		instance_deactivate_layer("BulletsLayer");
 		perk_choice(x_value, y_value);
 		audio_play_sound(snd_powerup, 1, false, 1);
 	}
@@ -164,16 +151,23 @@ if (pv < 1 && !dying && !dead) {
 	dying = true;
 	pause = true;
 	instance_deactivate_layer("EnemyLayer");
+	instance_deactivate_layer("BulletsLayer");
 	alarm[3] = 30;
 	audio_play_sound(snd_player_death, 2, false, 1);
 	sprite_index = spr_death;
 } else {
-if (is_perk_choice) {
+	if (is_perk_choice) {
 		if (global.beat && alarm[5] < 1) {
 			sprite_index = spr_dance;
-						alarm[5] = 15
-		} 
+			alarm[5] = 15;
+		}
+	} else if (obj_end_game.final_ended) {
 		
+		if (global.beat) {
+		sprite_index = spr_dance;
+		} else {
+		sprite_index = spr_no_dance;
+		}
 	
 	}
 }

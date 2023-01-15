@@ -1,6 +1,6 @@
 event_inherited()
 
-total_hp = 100
+total_hp = 10 //restore
 hp = total_hp
 spd = 1
 is_boss = true
@@ -8,6 +8,8 @@ bullet_cooldown = 0
 bullet_time_cooldown = 10
 bullet_2_cooldown = 0
 bullet_2_time_cooldown = 30
+bullet_3_cooldown = 0
+bullet_3_time_cooldown = 10
 nbr_of_bullets = 24
 circle_bullet_speed = 4
 nbr_of_circle_bullet_shoot = 3

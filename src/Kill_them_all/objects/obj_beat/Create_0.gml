@@ -1,4 +1,4 @@
-global.beat_1 = audio_play_sound(snd_beat_1, 1, true, 0) // RESTORE
+global.beat_1 = audio_play_sound(snd_beat_1, 1, true, 0) // restore 
 global.beat_2 = audio_play_sound(snd_beat_2, 2, true, 0)
 global.beat_3 = audio_play_sound(snd_beat_3, 3, true, 0)
 global.beat_4 = audio_play_sound(snd_beat_4, 3, true, 0)

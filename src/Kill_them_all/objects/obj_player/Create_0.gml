@@ -5,7 +5,7 @@ fire_rate = 0.4
 damage = 1
 xp = 0
 pv = 5
-level = 0
+level = 7 //restore
 pause = false
 
 
@@ -56,19 +56,19 @@ spr_death = spr_player_death
 switch (global.setup_weapon)
 {
     case "gun":
-		instance_create_layer(x,y, "BulletsLayer", obj_gun)
+		instance_create_layer(x,y, "lyr_weapon", obj_gun)
     break;
 
     case "shotgun":
-		instance_create_layer(x,y, "BulletsLayer", obj_shotgun)
+		instance_create_layer(x,y, "lyr_weapon", obj_shotgun)
     break;
 	
 	  case "ar":
-		instance_create_layer(x,y, "BulletsLayer", obj_ar)
+		instance_create_layer(x,y, "lyr_weapon", obj_ar)
     break;
 
     default:
-        instance_create_layer(x,y, "BulletsLayer", obj_gun)
+        instance_create_layer(x,y, "lyr_weapon", obj_gun)
 }
 
 
@@ -85,24 +85,24 @@ perks = [
 	obj_power_speed,
 	obj_power_damage,
 	//obj_power_bullet_speed,
-	//obj_power_projectile
+	obj_power_projectile
 ]
 
-//range = 1
+range = 2
 
 perk_choice = function (x_value, y_value) {
 	
-	//random1 = irandom(range)
-    //random2 = irandom(range)
+	random1 = irandom(range)
+    random2 = irandom(range)
 	
-	//while (random1 == random2) {
-	//	random2 = irandom(range)
-	//}
+	while (random1 == random2) {
+		random2 = irandom(range)
+	}
 	
 	margin = camera_get_view_width(view_camera[0]) / 2
 	
-	create_perk(x_value + margin - 300, y_value + 400, perks[0])
-	create_perk(x_value  + margin + 300, y_value + 400, perks[1])
+	create_perk(x_value + margin - 300, y_value + 400, perks[random1])
+	create_perk(x_value  + margin + 300, y_value + 400, perks[random2])
 }
 
 

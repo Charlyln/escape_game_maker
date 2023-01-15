@@ -1,30 +1,19 @@
  < >
 
 To do:
-- 
 
-add perks: 
+- rework tutoriel gif
 
-- surcharge range up
-- nbr of bullet in magazine to display like returnal
-- reload time
-- rename speed bullet to cooldown
-- and so maybe add speed bullet 
-- multiple dash
 
-balles plus le"ntes boss 
-sprite reload tout le reload
+To add:
 
-a la fin mettre la sprite des enceintes puis get tous les noms de joueurs ayant terminer le jeu et afficher le sprite player pour chacun et les faire tous danser
-mettre en pause le timer
-soard attack
-different damage for guns
-stats display on setup section for guns
-draw sprite magazine to know how much bullets left like returnal
-anim morts enemies (au moins boss)
+- dans setup, afficher les stats des armes 
+
+
+Maybe:
+
 ramasser coffre après boss (nouvelle arme)
-http request for scores addon js 
 plusieurs player
-
 anim gun shot
-afinier sound boss
+anim morts enemies (au moins boss)
+draw sprite magazine to know how much bullets left like returnal

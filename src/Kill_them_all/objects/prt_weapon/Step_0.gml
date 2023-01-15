@@ -9,7 +9,9 @@
 	x_value = camera_get_view_x(view_camera[0]);
 	mouse_x_from_start_camera = device_mouse_x_to_gui(0);
 
-	if (reloading && alarm[0] < time_reload) {
+	if (obj_player.pause) {
+		sprite_index = spr_weapon_invisible
+	} else if (reloading && alarm[0] < time_reload) {
 		sprite_index = reloaded_sprite;
 	} else if (x_value + mouse_x_from_start_camera < x) {
 		sprite_index = flip_sprite;
@@ -28,7 +30,7 @@
 		obj_player.moove_speed_malus = 0;
 	}
 
-	if (shoot && cooldown < 1 && bullet_in_magazine > 0) {
+	if (shoot && cooldown < 1 && bullet_in_magazine > 0 && !obj_player.pause) {
 		for (var i = 0; i < projectile; i += 1) {
 			if (global.beat) {
 			instance_create_layer(x, y, "BulletsLayer", obj_bullet);
