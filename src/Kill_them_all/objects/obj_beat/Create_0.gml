@@ -1,4 +1,4 @@
-global.beat_1 = audio_play_sound(snd_beat_1, 1, true, 1)
+global.beat_1 = audio_play_sound(snd_beat_1, 1, true, 0) // RESTORE
 global.beat_2 = audio_play_sound(snd_beat_2, 2, true, 0)
 global.beat_3 = audio_play_sound(snd_beat_3, 3, true, 0)
 global.beat_4 = audio_play_sound(snd_beat_4, 3, true, 0)
@@ -6,6 +6,7 @@ global.beat_5 = audio_play_sound(snd_beat_5, 3, true, 0)
 global.beat_6 = audio_play_sound(snd_beat_6, 3, true, 0)
 global.beat_7 = audio_play_sound(snd_beat_7, 3, true, 0)
 global.beat_8 = audio_play_sound(snd_beat_8, 3, true, 0)
+global.beat_8_5 = audio_play_sound(snd_beat_8_5, 3, true, 0)
 global.beat_9 = audio_play_sound(snd_beat_9, 3, true, 0)
 
 global.beat_dash = audio_play_sound(snd_dash_beat, 1, true, 0)

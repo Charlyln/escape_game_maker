@@ -1,0 +1,42 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_enemy_spawn_13",
+  "spriteId": {
+    "name": "spr_enemy_boss_hit",
+    "path": "sprites/spr_enemy_boss_hit/spr_enemy_boss_hit.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "managed": true,
+  "spriteMaskId": {
+    "name": "spr_enemy_10",
+    "path": "sprites/spr_enemy_10/spr_enemy_10.yy",
+  },
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_enemy_spawn_boss_1",
+    "path": "objects/obj_enemy_spawn_boss_1/obj_enemy_spawn_boss_1.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "spawn",
+    "path": "folders/Objects/characters/enemies/spawn.yy",
+  },
+}

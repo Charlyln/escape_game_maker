@@ -17,7 +17,7 @@
   "soundFile": "snd_bullet_2.wav",
   "duration": 0.218027,
   "parent": {
-    "name": "bullets",
-    "path": "folders/Sounds/bullets.yy",
+    "name": "Legacy",
+    "path": "folders/Legacy.yy",
   },
 }

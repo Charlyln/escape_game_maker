@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_boss_bullet_3",
   "spriteId": {
-    "name": "spr_Light_Bulb6768",
-    "path": "sprites/spr_Light_Bulb6768/spr_Light_Bulb6768.yy",
+    "name": "spr_bullet_boss_2",
+    "path": "sprites/spr_bullet_boss_2/spr_bullet_boss_2.yy",
   },
   "solid": false,
   "visible": true,

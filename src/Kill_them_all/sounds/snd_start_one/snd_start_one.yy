@@ -17,7 +17,7 @@
   "soundFile": "snd_start_one.mp3",
   "duration": 6.426122,
   "parent": {
-    "name": "music",
-    "path": "folders/Sounds/music.yy",
+    "name": "Legacy",
+    "path": "folders/Legacy.yy",
   },
 }

@@ -4,7 +4,7 @@
   "name": "snd_shotgun_reload",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.05,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -17,7 +17,7 @@
   "soundFile": "snd_shotgun_reload.wav",
   "duration": 0.875011,
   "parent": {
-    "name": "weapons",
-    "path": "folders/Sounds/weapons.yy",
+    "name": "Legacy",
+    "path": "folders/Legacy.yy",
   },
 }

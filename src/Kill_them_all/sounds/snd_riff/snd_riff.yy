@@ -17,7 +17,7 @@
   "soundFile": "snd_riff.wav",
   "duration": 0.569229,
   "parent": {
-    "name": "music",
-    "path": "folders/Sounds/music.yy",
+    "name": "Legacy",
+    "path": "folders/Legacy.yy",
   },
 }

@@ -17,7 +17,7 @@
   "soundFile": "snd_dash_reload.mp3",
   "duration": 0.835918,
   "parent": {
-    "name": "player",
-    "path": "folders/Sounds/player.yy",
+    "name": "Legacy",
+    "path": "folders/Legacy.yy",
   },
 }

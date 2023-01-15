@@ -17,7 +17,7 @@
   "soundFile": "snd_dash_beat41.wav",
   "duration": 0.409229,
   "parent": {
-    "name": "music",
-    "path": "folders/Sounds/music.yy",
+    "name": "Legacy",
+    "path": "folders/Legacy.yy",
   },
 }

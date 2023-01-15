@@ -1,7 +1,7 @@
 event_inherited()
 
 // Stats 
-hp = 5
+hp = 4
 spd = 1
 
 // Sprites 

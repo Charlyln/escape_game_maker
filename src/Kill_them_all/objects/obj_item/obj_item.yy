@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "prt_lighting",
+    "path": "objects/prt_lighting/prt_lighting.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

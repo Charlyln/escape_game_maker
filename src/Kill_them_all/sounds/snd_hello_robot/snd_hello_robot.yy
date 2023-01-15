@@ -17,7 +17,7 @@
   "soundFile": "snd_hello_robot.mp3",
   "duration": 2.089796,
   "parent": {
-    "name": "player",
-    "path": "folders/Sounds/player.yy",
+    "name": "Legacy",
+    "path": "folders/Legacy.yy",
   },
 }

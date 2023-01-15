@@ -4,7 +4,7 @@
   "name": "snd_fire",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.05,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -17,7 +17,7 @@
   "soundFile": "snd_fire.wav",
   "duration": 1.22,
   "parent": {
-    "name": "weapons",
-    "path": "folders/Sounds/weapons.yy",
+    "name": "bullets",
+    "path": "folders/Sounds/bullets.yy",
   },
 }

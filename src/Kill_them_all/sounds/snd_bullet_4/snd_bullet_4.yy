@@ -4,7 +4,7 @@
   "name": "snd_bullet_4",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.5,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -17,7 +17,7 @@
   "soundFile": "snd_bullet_4.wav",
   "duration": 1.343741,
   "parent": {
-    "name": "bullets",
-    "path": "folders/Sounds/bullets.yy",
+    "name": "Legacy",
+    "path": "folders/Legacy.yy",
   },
 }

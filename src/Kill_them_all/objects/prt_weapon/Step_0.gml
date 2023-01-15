@@ -1,4 +1,4 @@
-if (!obj_player.pause) {
+
 	x = obj_player.x;
 	y = obj_player.y;
 
@@ -34,7 +34,9 @@ if (!obj_player.pause) {
 			instance_create_layer(x, y, "BulletsLayer", obj_bullet);
 			shooting = true;
 
-		audio_play_sound(snd_weapon_bullet_2, 2, false, 0.5);
+
+		bullet_sound = audio_play_sound(snd_weapon_bullet_2, 1, false);
+		audio_sound_gain(bullet_sound, 5, 0);
 		cooldown = weapon_cooldown - obj_player.fire_rate;
 		bullet_in_magazine -= 1;
 			} else {
@@ -86,7 +88,7 @@ if (!obj_player.pause) {
 	}
 
 	if (special && cooldown_sec < 1 && global.beat ) {
-		//sprite_index = spr_enemy_12931;
+		//sprite_index = spr_player_idle31;
 		
 				if (!global.beat_tutoriel_special && global.beat_tutoriel_dash && global.beat_tutoriel_reload && obj_beat_tuto.alarm[0] < 1) {
 		global.beat_tutoriel_special = true
@@ -103,5 +105,5 @@ if (!obj_player.pause) {
 	}
 	cooldown -= 1;
 	cooldown_sec -= 1;
-}
+
 

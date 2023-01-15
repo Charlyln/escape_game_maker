@@ -6,6 +6,7 @@ beat_5_is_playing = false
 beat_6_is_playing = false
 beat_7_is_playing = false;
 beat_8_is_playing = false;
+beat_8_5_is_playing = false
 beat_9_is_playing = false;
 
 play_beat_7 = false

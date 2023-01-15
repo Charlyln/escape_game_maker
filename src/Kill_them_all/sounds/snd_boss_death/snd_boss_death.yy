@@ -4,7 +4,7 @@
   "name": "snd_boss_death",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.3,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,

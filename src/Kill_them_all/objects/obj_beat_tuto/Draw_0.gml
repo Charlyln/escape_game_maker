@@ -1,3 +1,6 @@
+if (!global.beat_tutoriel_is_over) {
+
+
 if (!global.beat_tutoriel_reload) {
 	draw_set_color(c_white);
 	draw_text_ext_transformed(obj_player.x, obj_player.y - 150, "Keep LEFT MOUSE press to shoot then try to reload by clicking on the BEAT", 10, 300, 2, 2, 0);
@@ -29,4 +32,5 @@ if (global.beat_tutoriel_reload && alarm[0] > 0 && !global.beat_tutoriel_dash &&
 	}
 }
 
+}
 

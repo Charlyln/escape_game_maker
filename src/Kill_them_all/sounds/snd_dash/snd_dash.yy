@@ -17,7 +17,7 @@
   "soundFile": "snd_dash.wav",
   "duration": 0.865079,
   "parent": {
-    "name": "player",
-    "path": "folders/Sounds/player.yy",
+    "name": "Legacy",
+    "path": "folders/Legacy.yy",
   },
 }

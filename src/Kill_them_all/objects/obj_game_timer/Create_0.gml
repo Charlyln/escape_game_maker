@@ -1,4 +1,4 @@
-timer = room_speed * 600;
+timer = 0
 
 
 

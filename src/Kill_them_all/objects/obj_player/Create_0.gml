@@ -5,7 +5,7 @@ fire_rate = 0.4
 damage = 1
 xp = 0
 pv = 5
-level = 2
+level = 0
 pause = false
 
 
@@ -34,6 +34,22 @@ global.damage = ""
 global.projectile = ""
 global.bullet_speed = ""
 global.player_speed = ""
+
+spr_dance = spr_player_dance
+spr_no_dance = spr_player_no_dance
+spr_hit = spr_player_hit
+spr_dash_up = spr_player_dash_up
+spr_dash_down = spr_player_dash_down
+spr_dash_right = spr_player_dash_right
+spr_dash_left = spr_player_dash_left
+spr_dash_left_down = spr_player_dash_left_down
+spr_dash_left_up = spr_player_dash_left_up
+spr_dash_right_down = spr_player_dash_right_down
+spr_dash_right_up = spr_player_dash_right_up
+spr_walk = spr_player_walk
+spr_idle = spr_player_idle
+spr_dead = spr_player_dead
+spr_death = spr_player_death
 
 
 

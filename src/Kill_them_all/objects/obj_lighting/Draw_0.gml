@@ -38,6 +38,12 @@ if (!surface_exists(surf)) {
 				draw_sprite_ext(spr_Light_Bulb, 0, x - _cx, y - _cy, 2, 2, 0, c_red , 1);
 
 				break;
+				
+				case obj_item:
+				draw_sprite_ext(spr_Light_Bulb, 0, x - _cx, y - _cy, 1, 1, 0, c_white , 1);
+				
+				
+				break;
 		}
 	}
 	gpu_set_blendmode(bm_normal);

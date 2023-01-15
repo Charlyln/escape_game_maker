@@ -1,6 +1,6 @@
-if (timer > 0)
+if (!obj_player.dead)
 {
-   timer --;
+   timer ++;
 }
 
 

@@ -29,7 +29,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ath",
-    "path": "folders/Objects/ui/ath.yy",
+    "name": "contollers",
+    "path": "folders/Objects/contollers.yy",
   },
 }

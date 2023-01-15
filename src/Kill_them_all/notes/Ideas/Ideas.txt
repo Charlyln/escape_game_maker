@@ -15,6 +15,7 @@ add perks:
 balles plus le"ntes boss 
 sprite reload tout le reload
 
+a la fin mettre la sprite des enceintes puis get tous les noms de joueurs ayant terminer le jeu et afficher le sprite player pour chacun et les faire tous danser
 mettre en pause le timer
 soard attack
 different damage for guns
