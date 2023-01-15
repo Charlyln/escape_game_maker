@@ -5,7 +5,7 @@ fire_rate = 0.4
 damage = 1
 xp = 0
 pv = 5
-level = 7 //restore
+level = 0
 pause = false
 
 
@@ -50,6 +50,11 @@ spr_walk = spr_player_walk
 spr_idle = spr_player_idle
 spr_dead = spr_player_dead
 spr_death = spr_player_death
+
+
+	
+	x = x + 600
+	y = y + 400
 
 
 

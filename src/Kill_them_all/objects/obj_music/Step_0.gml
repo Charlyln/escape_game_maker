@@ -91,16 +91,20 @@ if (instance_exists(obj_player) && global.music_position >= 2.1) {
 		} else if (obj_player.level >= 5 && obj_player.level < 6 && beat_7_is_playing && !beat_8_is_playing && play_beat_8) {
 			audio_sound_gain(global.beat_8, 1, 0);
 			audio_sound_gain(global.beat_7, 0, 0);
+			audio_sound_gain(global.beat_6, 0, 0);
 			show_debug_message("beat_8_is_playing");
 			beat_8_is_playing = true;
 		} else if (obj_player.level >= 6 && obj_player.level < 7 && !beat_8_5_is_playing) {
 			audio_sound_gain(global.beat_8_5, 1, 0);
 			audio_sound_gain(global.beat_8, 0, 0);
+			audio_sound_gain(global.beat_7, 0, 0);
+			audio_sound_gain(global.beat_6, 0, 0);
 			beat_8_5_is_playing = true;
 		} else if (obj_player.level >= 7 && !beat_9_is_playing) {
+				audio_sound_gain(global.beat_8, 0, 0);
+				audio_sound_gain(global.beat_7, 0, 0);
 			if (global.beat_loop == 4) {
 				audio_sound_gain(global.beat_9, 1, 0);
-				audio_sound_gain(global.beat_8_5, 0, 0);
 				beat_9_is_playing = true;
 			} else if (!beat_9_is_playing) {
 				audio_sound_gain(global.beat_8_5, 1, 0);
