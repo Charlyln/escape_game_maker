@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_tuto_gif_overload",
   "spriteId": {
-    "name": "gif_tuto_overload",
-    "path": "sprites/gif_tuto_overload/gif_tuto_overload.yy",
+    "name": "gif_reload",
+    "path": "sprites/gif_reload/gif_reload.yy",
   },
   "solid": false,
   "visible": true,

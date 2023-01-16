@@ -5,7 +5,7 @@ do_action_button = function () {
 
 if (instance_exists(prt_tuto_text) && instance_exists(prt_tuto_gif)) {
 	
-	show_debug_message("herre")
+
 	instance_destroy(prt_tuto_text);
 	instance_destroy(prt_tuto_gif);
 

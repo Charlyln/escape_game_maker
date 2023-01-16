@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_tuto_gif_dash",
   "spriteId": {
-    "name": "gif_tuto_dash",
-    "path": "sprites/gif_tuto_dash/gif_tuto_dash.yy",
+    "name": "gif_dash",
+    "path": "sprites/gif_dash/gif_dash.yy",
   },
   "solid": false,
   "visible": true,

@@ -2,19 +2,16 @@
 
 To do:
 
-- ajouter une vrai DB 
-- fix music après restart
-- améliorer mort des boss avec un sprite et une alarm et un bruit de mort maybe
-- refaire tete p2 boss 1
-- rework tutoriel gif
-- voir si tout est bien init après un restart
+- ajouter une vrai DB
 
 
 To add:
 
+- easy mod
+- améliorer mort des boss avec un sprite et une alarm et un bruit de mort maybe
 - dans setup, afficher les stats des armes 
 - ajouter tuto et commands dans le menu pause
-- easy mod
+
 
 
 Maybe:

@@ -15,6 +15,7 @@ do_action_button = function () {
 	} else {
 		str = "str"
 post = http_post_string("https://gamemakerapi.herokuapp.com/name/" + global.name + "/score/" + string(obj_player.level), str);
+	reset_music()
 	room_goto(1);	
 	}
 };

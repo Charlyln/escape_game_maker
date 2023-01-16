@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_tuto_gif_special",
   "spriteId": {
-    "name": "gif_tuto_special",
-    "path": "sprites/gif_tuto_special/gif_tuto_special.yy",
+    "name": "gif_special",
+    "path": "sprites/gif_special/gif_special.yy",
   },
   "solid": false,
   "visible": true,
