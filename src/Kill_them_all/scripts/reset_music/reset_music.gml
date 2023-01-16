@@ -1,4 +1,5 @@
 function reset_music(){
+	show_debug_message("reset_music")
 audio_sound_gain(global.beat_1, 1, 0);
 audio_sound_gain(global.beat_2, 0, 0);
 audio_sound_gain(global.beat_3, 0, 0);

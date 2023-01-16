@@ -2,9 +2,10 @@
 
 To do:
 
-- ajouter animations quand item move forward
+- ajouter une vrai DB 
+- fix music après restart
+- améliorer mort des boss avec un sprite et une alarm et un bruit de mort maybe
 - refaire tete p2 boss 1
-- voir collision player
 - rework tutoriel gif
 - voir si tout est bien init après un restart
 

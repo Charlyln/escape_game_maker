@@ -87,7 +87,11 @@ global.music_position = music_position;
 			
 		} else {
 			global.beat_loop += 1;
+			
 		}
+		
+		 show_debug_message(global.beat_loop);
+show_debug_message("----------");
 		
 		
 	
