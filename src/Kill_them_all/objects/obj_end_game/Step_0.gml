@@ -1,7 +1,7 @@
 if ( instance_exists(obj_enemy_boss_2) && !final_ended ) {
 	if (obj_enemy_boss_2.hp <= 0) {
 
-
+	obj_player.invulnerability = true
 	x_view = camera_get_view_x(view_camera[0])
     y_view = camera_get_view_y(view_camera[0])
     w_view =  camera_get_view_width(view_camera[0]) 

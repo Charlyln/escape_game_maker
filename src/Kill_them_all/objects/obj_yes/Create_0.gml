@@ -12,7 +12,7 @@ y_value = camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camer
 	instance_destroy(obj_input_choice)
 		instance_destroy(obj_yes)
 			instance_destroy(obj_no)
-	instance_create_layer(x_value, y_value, "lyr_recap", obj_input)
+	instance_create_layer(x_value, y_value, "lyr_pause_1", obj_input)
 	
 
 };

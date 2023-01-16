@@ -142,7 +142,7 @@ if (dead && !instances_created) {
 	sprite_index = spr_dead;
 	instance_create_layer(x_value + 50, y_value + 20, "lyr_commands", obj_text_game_you_died);
 	instance_create_layer(x_value + 50, y_value + 20, "lyr_commands", obj_recap_infos);
-	instance_create_layer(x_value + 960, y_value + 700, "lyr_commands", obj_text_button_restart);
+	instance_create_layer(x_value + 960, y_value + 900, "lyr_commands", obj_text_button_restart);
 
 	instances_created = true;
 }

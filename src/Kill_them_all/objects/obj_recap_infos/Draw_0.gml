@@ -1,5 +1,5 @@
 x_value = camera_get_view_x(view_camera[0])
-y_value = camera_get_view_y(view_camera[0])
+y_value = camera_get_view_y(view_camera[0]) + 200
 
 str_level = string("Level: {0}", obj_player.level)
 str_timer = string("Timer: {0}", global.timer)

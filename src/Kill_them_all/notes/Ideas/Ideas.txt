@@ -2,12 +2,18 @@
 
 To do:
 
+- ajouter animations quand item move forward
+- refaire tete p2 boss 1
+- voir collision player
 - rework tutoriel gif
+- voir si tout est bien init après un restart
 
 
 To add:
 
 - dans setup, afficher les stats des armes 
+- ajouter tuto et commands dans le menu pause
+- easy mod
 
 
 Maybe:

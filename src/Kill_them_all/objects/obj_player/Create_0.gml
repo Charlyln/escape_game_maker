@@ -1,10 +1,10 @@
-moove_speed = 2
+moove_speed = 2 
 moove_speed_malus = 0
 
 fire_rate = 0.4
 damage = 1
 xp = 0
-pv = 5
+pv = 5 
 level = 0
 pause = false
 
